@@ -1,3 +1,12 @@
 <aura:component>
 
+    <!--  ATTRIBUTES -->
+        <!--  userId, dates  -->
+
+    <!--  EVENTS -->
+        <!--  query for user's schedule records during date range  -->
+        <!--  dynamically create view-only row component for each case -->
+
+        <h1>a user's schedule record during a date range</h1>
+
 </aura:component>	
