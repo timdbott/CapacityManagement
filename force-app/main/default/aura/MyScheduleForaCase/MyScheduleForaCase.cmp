@@ -1,0 +1,90 @@
+<aura:component controller="ScheduleController">
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute name="actName" type="String" />
+    <aura:attribute name="caseType" type="String" />
+    <aura:attribute name="caseId" type="String" />
+    <aura:attribute name="caseNumber" type="String" />
+    <aura:attribute name="caseRqstdSvc" type="String"/>
+    <aura:attribute name="caseRqstr" type="String" />
+    <aura:attribute name="caseOpty" type="String" />
+    <aura:attribute name="caseOptyAmnt" type="String" />
+    <aura:attribute name="caseActCls" type="String" />
+    <aura:attribute name="caseDueDate" type="String" />
+    <aura:attribute name="caseDaysDue" type="Integer" />
+    <aura:attribute name="scheduleRecordId" type="String"/>
+    <aura:attribute name="scheduleRcds" type="Schedule__c[]"/>
+    <aura:attribute name="schedules" type="Array"/>
+    <aura:attribute name="startDate" type="Date"/>
+    <aura:attribute name="daysToDisplay" type="Integer"/>
+    <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
+    
+    
+    <!-- this component returns a row of schedule__c data for the provided case -->
+    <div class="slds-grid slds-grid--vertical-align-center">
+    	<div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--3-of-12 scs-pointer" onclick="{!c.showMore}">
+            <div class="slds-text-align--left slds-truncate">{!v.actName}</div>
+        </div>
+        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12 scs-pointer" onclick="{!c.showMore}">
+            <div class="slds-text-align--left slds-truncate">{!v.caseOpty}</div>
+        </div>
+        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12 scs-pointer" onclick="{!c.showMore}">
+            <div class="slds-text-align--left slds-truncate">{!v.caseRqstr}</div>
+        </div>
+		<div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12 scs-pointer" onclick="{!c.showMore}">
+            <div class="slds-text-align--center slds-truncate">{!v.caseDaysDue}</div>
+        </div>
+        <aura:iteration var="s" items="{!v.scheduleRcds}">
+            <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
+                <div class="slds-text-align--center slds-truncate slds-align--absolute-center">
+                	<c:MyScheduleForaCaseHours recordId="{!s.Id}" 
+                        caseId="{!v.caseId}" 
+                        loadedHours="{!s.Hours__c}" 
+                        dateForHours="{!s.Date__c}"
+                    />
+                </div>
+            </div>
+        </aura:iteration>
+    </div>
+
+    <!-- hidden card visible on mouseover -->
+    <div class="slds-hide" aura:id="moreInfoCard">
+        <lightning:card iconName="standard:case" variant="narrow" class="scs-card slds-m-horizontal--small slds-size--1-of-1 slds-medium-size--4-of-6 slds-large-size--5-of-12">
+            <aura:set attribute="title">
+                <p class="slds-p-horizontal--small" onclick="{!c.navigateTo}">
+                    {!v.caseRqstdSvc}
+                </p>
+            </aura:set>
+            <aura:set attribute="body">
+                <div class="slds-grid slds-wrap slds-grid--pull-padded">
+                    <div class="slds-size--1-of-1 slds-size--1-of-6 slds-size--4-of-12 slds-text-align--right">
+                        <span class="slds-text-align--right">Case #</span>
+                    </div>
+                    <div class="slds-size--1-of-1 slds-size--5-of-6 slds-size--8-of-12 slds-text-align--left">
+                        <span class="slds-p-horizontal--small slds-text-align--left" onclick="{!c.navigateTo}">
+                            <a href="" onclick="{!c.navigateTo}">{!v.caseNumber}</a>
+                        </span>
+                    </div>
+                    <div class="slds-size--1-of-1 slds-size--1-of-6 slds-size--4-of-12 slds-text-align--right">
+                        <span class="slds-text-align--right">Due Date</span>
+                    </div>
+                    <div class="slds-p-horizontal--small slds-size--1-of-1 slds-size--5-of-6 slds-size--8-of-12 slds-text-align--left">
+                        <span class="slds-text-align--left">{!v.caseDueDate}</span>
+                    </div>
+                    <div class="slds-size--1-of-1 slds-size--1-of-6 slds-size--4-of-12 slds-text-align--right">
+                        <span class="slds-text-align--right">Opportunity Disc Sales</span>
+                    </div>
+                    <div class="slds-p-horizontal--small slds-size--1-of-1 slds-size--5-of-6 slds-size--8-of-12 slds-text-align--left">
+                        <span class="slds-text-align--left">{!v.caseOptyAmnt}</span>
+                    </div>
+                    <div class="slds-size--1-of-1 slds-size--1-of-6 slds-size--4-of-12 slds-text-align--right">
+                        <span class="slds-text-align--right">Account Classification</span>
+                    </div>
+                    <div class="slds-p-horizontal--small slds-size--1-of-1 slds-size--5-of-6 slds-size--8-of-12 slds-text-align--left">
+                        <span class="slds-text-align--left">{!v.caseActCls}</span>
+                    </div>
+                </div>
+            </aura:set>
+        </lightning:card>
+    </div>
+        
+</aura:component>

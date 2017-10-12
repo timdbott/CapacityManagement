@@ -1,0 +1,65 @@
+<aura:component controller="ScheduleController">
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:handler name="MyScheduleClosedCaseToggle" 
+                  event="c:MyScheduleClosedCaseToggle" 
+                  action="{!c.toggleClosedCases}"
+                  includeFacets="true"/>
+    <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
+
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="ownedCases" type="Case[]"/>
+    <aura:attribute name="schedules" type="Schedule__c[]"/>
+    <aura:attribute name="startDate" type="Date"/>
+    <aura:attribute name="daysToDisplay" type="Integer"/>
+    <aura:attribute name="hasSchedule" type="Boolean"/>
+
+    <!-- header -->
+    <div class="slds-m-top--small slds-m-bottom--small">
+        <c:MyScheduleHeader header="Owned Cases" startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
+    </div>
+    
+    <!-- show schedule results if there are any -->
+    <aura:if isTrue="{!v.hasSchedule}">
+    
+
+
+      <!-- schedules -->
+      <div class="slds-m-top--small slds-m-bottom--small">
+          <aura:iteration var="s" items="{!v.ownedCases}">
+              <div class="slds-m-top--small slds-m-bottom--small">
+                  <c:MyScheduleForaCase caseId="{!s.Id}" 
+                                         startDate="{!v.startDate}" 
+                                         daysToDisplay="{!v.daysToDisplay}"
+                                         actName="{!s.Account_Name_Text__c}"
+                                         caseOpty="{!s.Opportunity_Name__c}"
+                                         caseRqstr="{!s.Service_Requested_By_Name__c}"
+                                         caseDaysDue="{!s.Days__c}"
+                                         caseDueDate="{!s.Requested_Completion_Date__c}"
+                                         caseRqstdSvc="{!s.Requested_Service__c}"
+                                         caseNumber="{!s.CaseNumber}"
+                                         caseActCls="{!s.Account_Classification__c}"
+                                         caseOptyAmnt="{!s.Opportunity_Est_Disc_Sales__c}"/>
+              </div>
+          </aura:iteration>
+      </div>
+
+      <!--  show 'no results message' if none exist -->
+      <aura:set attribute="else">
+
+
+        <!-- message -->
+        <div class="slds-m-left--large slds-p-bottom--small">
+          <div class="slds-m-horizontal--xx-small slds-size--1-of-1 slds-medium-size--6-of-6 slds-large-size--12-of-12 slds-m-top--small">
+            <div class="slds-notify slds-notify--alert slds-theme--alert-texture" role="alert">
+              <span class="slds-assistive-text">Info</span>
+              <h2>No Owned Cases</h2>
+            </div>
+          </div>
+        </div>
+
+      </aura:set>
+    </aura:if>
+
+
+    
+</aura:component>

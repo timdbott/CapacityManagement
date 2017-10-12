@@ -1,0 +1,23 @@
+<aura:component controller="ScheduleController">
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="adminCases" type="Case[]"/>
+    <aura:attribute name="schedules" type="Schedule__c[]"/>
+    <aura:attribute name="startDate" type="Date"/>
+    <aura:attribute name="daysToDisplay" type="Integer"/>
+    <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
+    
+    <div class="slds-m-top--small slds-m-bottom--small">
+        <c:MyScheduleAdminHeader header="Administrative" startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
+    </div>
+    <div class="slds-m-top--small slds-m-bottom--small slds-border--bottom">
+        <aura:iteration var="s" items="{!v.adminCases}">
+            <div class="slds-m-top--small slds-m-bottom--small">
+                <c:MyScheduleAdminForaCase caseId="{!s.Id}" 
+                                       startDate="{!v.startDate}"
+                                       caseRqstdSvc="{!s.Requested_Service__c}"/>
+            </div>
+        </aura:iteration>
+    </div>
+    
+</aura:component>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Classification__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Classification</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GCC Ultimate</fullName>
+                <default>false</default>
+                <label>GCC Ultimate</label>
+            </value>
+            <value>
+                <fullName>GCC Subsite</fullName>
+                <default>false</default>
+                <label>GCC Subsite</label>
+            </value>
+            <value>
+                <fullName>GCC Family Member</fullName>
+                <default>false</default>
+                <label>GCC Family Member</label>
+            </value>
+            <value>
+                <fullName>Strategic Ultimate</fullName>
+                <default>false</default>
+                <label>Strategic Ultimate</label>
+            </value>
+            <value>
+                <fullName>Strategic Subsite</fullName>
+                <default>false</default>
+                <label>Strategic Subsite</label>
+            </value>
+            <value>
+                <fullName>Strategic Family Member</fullName>
+                <default>false</default>
+                <label>Strategic Family Member</label>
+            </value>
+            <value>
+                <fullName>NCC Global Ultimate</fullName>
+                <default>false</default>
+                <label>NCC Global Ultimate</label>
+            </value>
+            <value>
+                <fullName>NCC Global Subsite</fullName>
+                <default>false</default>
+                <label>NCC Global Subsite</label>
+            </value>
+            <value>
+                <fullName>NCC Global Family Member</fullName>
+                <default>false</default>
+                <label>NCC Global Family Member</label>
+            </value>
+            <value>
+                <fullName>NCC Region Ultimate</fullName>
+                <default>false</default>
+                <label>NCC Region Ultimate</label>
+            </value>
+            <value>
+                <fullName>NCC Region Subsite</fullName>
+                <default>false</default>
+                <label>NCC Region Subsite</label>
+            </value>
+            <value>
+                <fullName>NCC Region Family Member</fullName>
+                <default>false</default>
+                <label>NCC Region Family Member</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

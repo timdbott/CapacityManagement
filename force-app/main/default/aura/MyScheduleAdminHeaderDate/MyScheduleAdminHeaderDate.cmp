@@ -1,0 +1,17 @@
+<aura:component >
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute name="date" type="date"/>
+    <aura:attribute name="isToday" type="boolean" default="false"/>
+    
+    <aura:renderIf isTrue="{!v.isToday}">
+            <!--<th scope="col" style="background-color: #ec4a4a;color:white;">-->
+            <div scope="col" class="slds-text-color--error">
+                <div class="slds-truncate slds-align--absolute-center" title="date">{!v.date}</div>
+            </div>
+        <aura:set attribute="else">
+            <div scope="col">
+                <div class="slds-truncate slds-align--absolute-center" title="date">{!v.date}</div>
+            </div>
+        </aura:set>
+    </aura:renderIf>
+</aura:component>

@@ -1,0 +1,57 @@
+<aura:component controller="ScheduleController" implements="force:hasRecordId" access="global" >
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute name="loadedHours" type="decimal"/>
+    <aura:attribute name="originalHours" type="decimal"/>
+    <aura:attribute name="recordId" type="string"/> <!--record id in Schedule__c -->
+    <aura:attribute name="caseId" type="string"/>
+    <aura:attribute name="dateForHours" type="date"/>
+    <aura:attribute name="isRed" type="boolean" default="false"/>
+    <aura:attribute name="isYellow" type="boolean" default="false"/>
+    <aura:attribute name="isGreen" type="boolean" default="false"/>
+    <aura:attribute name="isWhite" type="boolean" default="false"/>
+
+    <aura:renderIf isTrue="{!v.isRed}">
+        <div class="slds-text-align--center ">
+            <div class="slds-form-element__control slds-theme--error slds-p-around--xx-small">
+                <ui:outputNumber aura:id="{!v.recordId}" 
+                    class="slds-text-heading--medium slds-p-around--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12 slds-text-align--center slds-theme--error" 
+                    format=".00" 
+                    value="{!v.loadedHours}"/>
+            </div>
+        </div>
+        <aura:set attribute="else"></aura:set>
+    </aura:renderIf>
+    <aura:renderIf isTrue="{!v.isYellow}">
+        <div class="slds-form-element">
+            <div class="slds-form-element__control slds-theme--warning slds-p-around--xx-small">
+                <ui:outputNumber aura:id="{!v.recordId}" 
+                    class="slds-text-heading--medium slds-p-around--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12 slds-text-align--center slds-theme--warning" 
+                    format=".00"
+					value="{!v.loadedHours}"/>
+            </div>
+        </div>
+        <aura:set attribute="else"></aura:set>
+    </aura:renderIf>
+    <aura:renderIf isTrue="{!v.isGreen}">
+        <div class="slds-form-element">
+            <div class="slds-form-element__control slds-theme--success slds-p-around--xx-small">
+                <ui:outputNumber aura:id="{!v.recordId}" 
+                    class="slds-text-heading--medium slds-p-around--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12 slds-text-align--center slds-theme--success" 
+                    format=".00"
+                    value="{!v.loadedHours}"/>
+            </div>
+        </div>
+        <aura:set attribute="else"></aura:set>
+    </aura:renderIf>
+    <aura:renderIf isTrue="{!v.isWhite}">
+        <div class="slds-form-element">
+            <div class="slds-form-element__control">
+                <ui:outputNumber aura:id="{!v.recordId}" 
+                    class="slds-text-heading--medium slds-p-around--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12 slds-text-align--center" 
+                    format="0.00"
+                    value="{!v.loadedHours}"/>
+            </div>
+        </div>
+        <aura:set attribute="else"></aura:set>
+    </aura:renderIf>
+</aura:component>

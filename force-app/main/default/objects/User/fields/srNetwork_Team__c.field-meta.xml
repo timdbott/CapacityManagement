@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>srNetwork_Team__c</fullName>
+    <description>used in capacity management</description>
+    <externalId>false</externalId>
+    <label>srNetwork Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>APAC SRN Australia</fullName>
+                <default>false</default>
+                <label>APAC SRN Australia</label>
+            </value>
+            <value>
+                <fullName>APAC SRN Bid &amp; Proposal Manager</fullName>
+                <default>false</default>
+                <label>APAC SRN Bid &amp; Proposal Manager</label>
+            </value>
+            <value>
+                <fullName>APAC SRN China</fullName>
+                <default>false</default>
+                <label>APAC SRN China</label>
+            </value>
+            <value>
+                <fullName>APAC SRN Design Solutions &amp; Specifications</fullName>
+                <default>false</default>
+                <label>APAC SRN Design Solutions &amp; Specifications</label>
+            </value>
+            <value>
+                <fullName>APAC SRN Hong Kong</fullName>
+                <default>false</default>
+                <label>APAC SRN Hong Kong</label>
+            </value>
+            <value>
+                <fullName>APAC SRN India</fullName>
+                <default>false</default>
+                <label>APAC SRN India</label>
+            </value>
+            <value>
+                <fullName>APAC SRN KL Applications Design</fullName>
+                <default>false</default>
+                <label>APAC SRN KL Applications Design</label>
+            </value>
+            <value>
+                <fullName>APAC SRN KL Proposals &amp; Graphics</fullName>
+                <default>false</default>
+                <label>APAC SRN KL Proposals &amp; Graphics</label>
+            </value>
+            <value>
+                <fullName>APAC SRN KL Quotation</fullName>
+                <default>false</default>
+                <label>APAC SRN KL Quotation</label>
+            </value>
+            <value>
+                <fullName>APAC SRN KL Specials</fullName>
+                <default>false</default>
+                <label>APAC SRN KL Specials</label>
+            </value>
+            <value>
+                <fullName>APAC SRN KL Visualizations</fullName>
+                <default>false</default>
+                <label>APAC SRN KL Visualizations</label>
+            </value>
+            <value>
+                <fullName>APAC SRN Management</fullName>
+                <default>false</default>
+                <label>APAC SRN Management</label>
+            </value>
+            <value>
+                <fullName>APAC SRN SEA</fullName>
+                <default>false</default>
+                <label>APAC SRN SEA</label>
+            </value>
+            <value>
+                <fullName>Applications</fullName>
+                <default>false</default>
+                <label>Applications</label>
+            </value>
+            <value>
+                <fullName>Applications Design</fullName>
+                <default>false</default>
+                <label>Applications Design</label>
+            </value>
+            <value>
+                <fullName>Applications - Health</fullName>
+                <default>false</default>
+                <label>Applications - Health</label>
+            </value>
+            <value>
+                <fullName>Architectural Health Projects</fullName>
+                <default>false</default>
+                <label>Architectural Health Projects</label>
+            </value>
+            <value>
+                <fullName>Architectural Solutions Applications</fullName>
+                <default>false</default>
+                <label>Architectural Solutions Applications</label>
+            </value>
+            <value>
+                <fullName>Business Reviews</fullName>
+                <default>false</default>
+                <label>Business Reviews</label>
+            </value>
+            <value>
+                <fullName>Business Services</fullName>
+                <default>false</default>
+                <label>Business Services</label>
+            </value>
+            <value>
+                <fullName>Contracts</fullName>
+                <default>false</default>
+                <label>Contracts</label>
+            </value>
+            <value>
+                <fullName>Customer Visits</fullName>
+                <default>false</default>
+                <label>Customer Visits</label>
+            </value>
+            <value>
+                <fullName>Design &amp; Business Services</fullName>
+                <default>false</default>
+                <label>Design &amp; Business Services</label>
+            </value>
+            <value>
+                <fullName>Fact Pack</fullName>
+                <default>false</default>
+                <label>Fact Pack</label>
+            </value>
+            <value>
+                <fullName>FOR MOCKUP TEAM Graphic/Application Dsgn</fullName>
+                <default>false</default>
+                <label>FOR MOCKUP TEAM Graphic/Application Dsgn</label>
+            </value>
+            <value>
+                <fullName>Graphic Design</fullName>
+                <default>false</default>
+                <label>Graphic Design</label>
+            </value>
+            <value>
+                <fullName>Graphic Design A+D</fullName>
+                <default>false</default>
+                <label>Graphic Design A+D</label>
+            </value>
+            <value>
+                <fullName>Internal Order</fullName>
+                <default>false</default>
+                <label>Internal Order</label>
+            </value>
+            <value>
+                <fullName>Mockup</fullName>
+                <default>false</default>
+                <label>Mockup</label>
+            </value>
+            <value>
+                <fullName>Performance Management</fullName>
+                <default>false</default>
+                <label>Performance Management</label>
+            </value>
+            <value>
+                <fullName>Proposals</fullName>
+                <default>false</default>
+                <label>Proposals</label>
+            </value>
+            <value>
+                <fullName>Proposals &amp; Graphics</fullName>
+                <default>false</default>
+                <label>Proposals &amp; Graphics</label>
+            </value>
+            <value>
+                <fullName>Quotation</fullName>
+                <default>false</default>
+                <label>Quotation</label>
+            </value>
+            <value>
+                <fullName>RAC/ASC engagement &amp; Plays support EMEA</fullName>
+                <default>false</default>
+                <label>RAC/ASC engagement &amp; Plays support EMEA</label>
+            </value>
+            <value>
+                <fullName>SOS</fullName>
+                <default>false</default>
+                <label>SOS</label>
+            </value>
+            <value>
+                <fullName>Steelcase Financial Services</fullName>
+                <default>false</default>
+                <label>Steelcase Financial Services</label>
+            </value>
+            <value>
+                <fullName>Steelcase WorkLife Order</fullName>
+                <default>false</default>
+                <label>Steelcase WorkLife Order</label>
+            </value>
+            <value>
+                <fullName>Sustainability</fullName>
+                <default>false</default>
+                <label>Sustainability</label>
+            </value>
+            <value>
+                <fullName>Technical Writing</fullName>
+                <default>false</default>
+                <label>Technical Writing</label>
+            </value>
+            <value>
+                <fullName>Visualizations</fullName>
+                <default>false</default>
+                <label>Visualizations</label>
+            </value>
+            <value>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+                <label>Warranty</label>
+            </value>
+            <value>
+                <fullName>Wood Applications</fullName>
+                <default>false</default>
+                <label>Wood Applications</label>
+            </value>
+            <value>
+                <fullName>Workplace/Application Design EMEA</fullName>
+                <default>false</default>
+                <label>Workplace/Application Design EMEA</label>
+            </value>
+            <value>
+                <fullName>Writing Services</fullName>
+                <default>false</default>
+                <label>Writing Services</label>
+            </value>
+            <value>
+                <fullName>APAC Specials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>APAC Specials</label>
+            </value>
+            <value>
+                <fullName>Design Solutions and Specifications</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Design Solutions and Specifications</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

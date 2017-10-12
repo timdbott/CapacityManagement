@@ -1,0 +1,3 @@
+<aura:event type="COMPONENT" description="toggles visibility of closed cases">
+    <aura:attribute name="showClosedCases" type="Boolean"/> 
+</aura:event>

@@ -1,0 +1,48 @@
+<aura:component controller="ScheduleController" implements="force:hasRecordId">
+    
+    <!--  ATTRIBUTES  -->
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="ownedCases" type="Case[]"/>
+    <aura:attribute name="scheduleRcds" type="Schedule__c[]"/>
+    <aura:attribute name="schedules" type="Array"/>
+    <aura:attribute name="startDate" type="Date"/>
+    <aura:attribute name="daysToDisplay" type="Integer"/>
+    <aura:attribute name="actName" type="String" />
+    <aura:attribute name="caseType" type="String" />
+    <aura:attribute name="caseRqstr" type="String" />
+    <aura:attribute name="caseOpty" type="String" />
+    <aura:attribute name="caseDaysDue" type="String" />
+    <aura:attribute name="caseRqstdSvc" type="String"/>
+    <aura:attribute name="caseNumber" type="String" />
+    <aura:attribute name="caseDueDate" type="String" />
+    <aura:attribute name="caseOptyAmnt" type="String" />
+    <aura:attribute name="caseActCls" type="String" />
+
+    <!--  EVENTS  -->
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
+    
+    <div class="slds-m-top--small slds-m-bottom--small">
+        <c:CaseScheduleTotalsHeader header="My Hours" 
+          startDate="{!v.startDate}" 
+          daysToDisplay="{!v.daysToDisplay}"
+          hasScheduleRcds="true"/>
+    </div>
+    
+    <c:CaseMyScheduleRow caseId="{!v.recordId}" 
+                            startDate="{!v.startDate}" 
+                            daysToDisplay="{!v.daysToDisplay}"
+                            actName="{!v.actName}"
+                            caseType="{!v.caseType}"
+                            caseRqstr="{!v.caseRqstr}"
+                            caseOpty="{!v.caseOpty}"
+                            caseDaysDue="{!v.caseDaysDue}"
+                            caseRqstdSvc="{!v.caseRqstdSvc}"
+                            caseNumber="{!v.caseNumber}"
+                            caseDueDate="{!v.caseDueDate}"
+                            caseOptyAmnt="{!v.caseOptyAmnt}"
+                            caseActCls="{!v.caseActCls}"
+    />
+
+   
+</aura:component>

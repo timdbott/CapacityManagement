@@ -1,0 +1,39 @@
+<aura:component controller="ScheduleController">
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute name="actName" type="String" />
+    <aura:attribute name="caseType" type="String" />
+    <aura:attribute name="caseId" type="String" />
+    <aura:attribute name="caseNumber" type="String" />
+    <aura:attribute name="caseRqstdSvc" type="String"/>
+    <aura:attribute name="caseRqstr" type="String" />
+    <aura:attribute name="caseOpty" type="String" />
+    <aura:attribute name="caseOptyAmnt" type="String" />
+    <aura:attribute name="caseActCls" type="String" />
+    <aura:attribute name="caseDueDate" type="String" />
+    <aura:attribute name="caseDaysDue" type="Integer" />
+    <aura:attribute name="scheduleRecordId" type="String"/>
+    <aura:attribute name="scheduleRcds" type="Schedule__c[]"/>
+    <aura:attribute name="schedules" type="Array"/>
+    <aura:attribute name="startDate" type="Date"/>
+    <aura:attribute name="daysToDisplay" type="Integer"/>
+    <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
+
+    <!-- this component returns a row of schedule__c data for the provided case -->
+    <div class="slds-m-top--small slds-m-bottom--small slds-border--bottom">
+        <div class="slds-m-top--small slds-m-bottom--small">
+            <lightning:layout horizontalAlign="space">
+                <aura:iteration var="s" items="{!v.scheduleRcds}">
+                    <lightning:layoutItem flexibility="auto" class="slds-m-right--xx-small">
+                        <c:MyScheduleForaCaseHours recordId="{!s.Id}" 
+                                caseId="{!v.caseId}" 
+                                loadedHours="{!s.Hours__c}" 
+                                dateForHours="{!s.Date__c}"
+                            />
+                    </lightning:layoutItem>
+                </aura:iteration>
+            </lightning:layout>
+        </div>
+    </div>
+
+        
+</aura:component>

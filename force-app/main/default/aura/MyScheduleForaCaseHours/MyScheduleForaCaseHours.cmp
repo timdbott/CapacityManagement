@@ -1,0 +1,77 @@
+<aura:component controller="ScheduleController" implements="force:hasRecordId" access="global" >
+    <aura:registerEvent name="CapacityManagementNotifyHoursChangeEvent" type="c:CapacityManagementNotifyHoursChangeEvent"/>
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute name="loadedHours" type="decimal"/>
+    <aura:attribute name="originalHours" type="decimal"/>
+    <aura:attribute name="recordId" type="string"/> <!--record id in Schedule__c -->
+    <aura:attribute name="caseId" type="string"/>
+    <aura:attribute name="dateForHours" type="date"/>
+    <aura:attribute name="errorMsg" type="String" default=""/>
+    <aura:attribute name="isRed" type="boolean" default="false"/>
+    <aura:attribute name="isYellow" type="boolean" default="false"/>
+    <aura:attribute name="isGreen" type="boolean" default="false"/>
+    <aura:attribute name="isWhite" type="boolean" default="false"/>
+
+    <aura:renderIf isTrue="{!v.isRed}">
+        <div class="slds-form-element">
+            <div class="slds-form-element__control">
+                <ui:inputNumber aura:id="{!v.recordId}" 
+                    class="slds-input slds-text-align--center" 
+                    value="{!v.loadedHours}"
+                    format="0.00"
+                    size="4"
+                    maxlength="4"
+                    blur="{!c.validate}"/>
+            </div>
+        </div>
+        <aura:set attribute="else"></aura:set>
+    </aura:renderIf>
+    <aura:renderIf isTrue="{!v.isYellow}">
+        <div class="slds-form-element">
+            <div class="slds-form-element__control">
+                <ui:inputNumber aura:id="{!v.recordId}" 
+                    class="slds-input slds-text-align--center" 
+                    value="{!v.loadedHours}"
+                    format="0.00"
+                    size="4"
+                    maxlength="4"
+                    blur="{!c.validate}"/>
+            </div>
+        </div>
+        <aura:set attribute="else"></aura:set>
+    </aura:renderIf>
+    <aura:renderIf isTrue="{!v.isGreen}">
+        <div class="slds-form-element">
+            <div class="slds-form-element__control">
+                <ui:inputNumber aura:id="{!v.recordId}" 
+                    class="slds-input slds-text-align--center" 
+                    value="{!v.loadedHours}"
+                    format="0.00"
+                    size="4"
+                    maxlength="4"
+                    blur="{!c.validate}"/>
+            </div>
+        </div>
+        <aura:set attribute="else"></aura:set>
+    </aura:renderIf>
+    <aura:renderIf isTrue="{!v.isWhite}">
+        <div class="slds-form-element">
+            <div class="slds-form-element__control">
+                <ui:inputNumber aura:id="{!v.recordId}" 
+                    class="slds-input slds-text-align--center" 
+                    value="{!v.loadedHours}"
+                    format="0.00"
+                    size="4"
+                    maxlength="4"
+                    blur="{!c.validate}"/>
+            </div>
+        </div>
+        <aura:set attribute="else"></aura:set>
+    </aura:renderIf>
+
+    <div>
+        <lightning:spinner aura:id="rowSpinner" class="slds-hide" variant="brand" size="large" alternativeText="spinner"/>
+    </div>
+
+
+</aura:component>

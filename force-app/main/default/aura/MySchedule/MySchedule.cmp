@@ -1,0 +1,85 @@
+<aura:component controller="ScheduleController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global" >
+    <!--<aura:registerEvent name="CapacityManagementHoursChangeEvent" type="c:CapacityManagementHoursChangeEvent"/>-->
+    <aura:handler name="CapacityManagementNotifyHoursChangeEvent" 
+                  event="c:CapacityManagementNotifyHoursChangeEvent" 
+                  action="{!c.initCSallRow}"
+                  includeFacets="true"/>
+    <aura:handler name="init" action="{!c.initCSallRow}" 
+                  value="{!this}"/>
+    <aura:handler name="change" action="{!c.changeDate}" value="{!v.startDate}"/>
+    <aura:attribute name="actName" type="String" />
+    <aura:attribute name="caseType" type="String" />
+    <aura:attribute name="caseId" type="String" />
+    <aura:attribute name="caseRqstr" type="String" />
+    <aura:attribute name="caseOpty" type="String" />
+    <aura:attribute name="caseDaysDue" type="Integer" />
+    <aura:attribute name="scheduleRecordId" type="String"/>
+    <aura:attribute name="scheduleRcds" type="Schedule__c[]"/>
+    <aura:attribute name="schedules" type="Array"/>
+    <aura:attribute name="startDate" type="Date"/>
+    <aura:attribute name="formattedDateHeader" type="String"/>
+    <aura:attribute name="daysToDisplay" type="Integer" default="7"/>
+    <aura:attribute name="errorMsg" type="String" default=""/>
+    
+    <div class="slds-card">
+    <div class="slds-text-heading--large slds-align--absolute-center slds-m-bottom--large slds-border--bottom">My Schedule</div>
+        <div class="slds-grid slds-m-top--small slds-p-bottom--small slds-border--bottom">
+            <div class="slds-size--3-of-12 slds-align--absolute-center">
+                <span>
+                	<lightning:buttonIcon aura:id="btn_prevWk" iconName="utility:chevronleft" onclick="{!c.changeDate}" alternativeText="previous week" />
+                </span>
+                <span class="slds-text-title slds-p-left--xx-small slds-p-right--xx-small">
+                	{!v.formattedDateHeader}
+                </span>
+                <span>
+                    <lightning:buttonIcon aura:id="btn_nextWk" iconName="utility:chevronright" onclick="{!c.changeDate}" alternativeText="next week" />
+                </span>
+            </div>
+        </div>
+        
+        <div class="slds-m-top--small slds-m-bottom--small"  style="width: 95%;">
+            <c:MyScheduleTotalsHeader header="My Schedule" startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
+        </div>
+            
+        <!-- this component returns a row of schedule__c data for the provided case -->
+        <div class="slds-grid slds-m-top--small slds-p-bottom--small" style="width: 95%;">
+            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12">
+                <div class="slds-text-align--center slds-align--absolute-center slds-text-heading--medium"></div>
+            </div>
+            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
+                <div class="slds-text-align--center slds-truncate slds-align--absolute-center"></div>
+            </div>
+            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
+                <div class="slds-text-align--center slds-truncate slds-align--absolute-center"></div>
+            </div>
+            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
+                <div class="slds-text-align--center slds-truncate slds-align--absolute-center"></div>
+            </div>
+            <aura:iteration var="s" items="{!v.scheduleRcds}">
+                <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
+                    <div class="slds-text-align--center slds-truncate slds-align--absolute-center">
+                        <c:MyScheduleTotals loadedHours="{!s.Hours__c}" dateForHours="{!s.Date__c}"/>
+                    </div>
+                </div>
+            </aura:iteration>
+        </div>
+        <div class="slds-border--bottom"></div>
+
+        <div style="width: 95%;">
+            <c:MyScheduleOwnedCases startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
+        </div>
+        <div class="slds-border--bottom"></div>
+        
+        <div style="width: 95%;">
+        	<c:MyScheduleUnownedCases startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
+		</div>
+        <div class="slds-border--bottom"></div>
+    
+        <div style="width: 95%;">
+            <c:MyScheduleAdminCases startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
+        </div>
+		<div class="slds-border--bottom"></div>
+        
+        </div>
+    
+</aura:component>

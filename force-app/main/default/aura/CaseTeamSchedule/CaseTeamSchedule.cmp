@@ -1,0 +1,39 @@
+<aura:component controller="ScheduleController" implements="force:hasRecordId">
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="scheduleRcds" type="Array"/>
+    <aura:attribute name="teamMembers" type="Array"/>
+    <aura:attribute name="startDate" type="Date"/>
+    <aura:attribute name="daysToDisplay" type="Integer"/>
+    <aura:attribute name="hasScheduleRcds" type="Boolean"/>
+    <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
+    
+    <!--  DATE ROWS  -->
+    <div class="slds-m-top--small slds-m-bottom--large">
+        <c:CaseScheduleTotalsHeader header="Team's Hours" 
+          startDate="{!v.startDate}" 
+          daysToDisplay="{!v.daysToDisplay}"
+          hasScheduleRcds="{!v.hasScheduleRcds}"/>
+    </div>
+
+    <!-- add more vertical space to push the team rows down a bit -->
+    
+
+    <!-- this component returns a row of schedule__c data for the provided case -->
+    <aura:renderIf isTrue="{!v.hasScheduleRcds}">
+        <aura:iteration var="t" items="{!v.teamMembers}">
+            <div class="slds-m-top--small slds-p-bottom--large">
+
+                <c:CaseTeamScheduleRow teamMember="{!t}" 
+                    scheduleRcds="{!v.scheduleRcds}" 
+                    startDate="{!v.startDate}" 
+                    daysToDisplay="{!v.daysToDisplay}"/>
+
+
+            </div>
+        </aura:iteration>
+
+    <aura:set attribute="else"></aura:set>
+    </aura:renderIf>
+    
+</aura:component>

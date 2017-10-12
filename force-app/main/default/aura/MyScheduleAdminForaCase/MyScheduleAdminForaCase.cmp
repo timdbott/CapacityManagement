@@ -1,0 +1,43 @@
+<aura:component controller="ScheduleController">
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute name="actName" type="String" />
+    <aura:attribute name="caseType" type="String" />
+    <aura:attribute name="caseId" type="String" />
+    <aura:attribute name="caseNumber" type="String" />
+    <aura:attribute name="caseRqstdSvc" type="String"/>
+    <aura:attribute name="caseRqstr" type="String" />
+    <aura:attribute name="caseOpty" type="String" />
+    <aura:attribute name="caseDueDate" type="String" />
+    <aura:attribute name="caseDaysDue" type="Integer" />
+    <aura:attribute name="scheduleRecordId" type="String"/>
+    <aura:attribute name="scheduleRcds" type="Schedule__c[]"/>
+    <aura:attribute name="schedules" type="Array"/>
+    <aura:attribute name="startDate" type="Date"/>
+    <aura:attribute name="daysToDisplay" type="Integer"/>
+    <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
+    
+    
+    <!-- this component returns a row of schedule__c data for the provided case -->
+    <div class="slds-grid slds-grid--vertical-align-center">
+    	<div style="max-width:40.0rem;min-width:40.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--3-of-6 slds-large-size--6-of-12">
+            <div class="slds-text-align--right slds-truncate">{!v.caseRqstdSvc}</div>
+        </div>
+        <aura:iteration var="s" items="{!v.scheduleRcds}">
+            <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
+                <div class="slds-text-align--center slds-truncate slds-align--absolute-center">
+                	<c:MyScheduleForaCaseHours recordId="{!s.Id}" 
+                        caseId="{!v.caseId}" 
+                        loadedHours="{!s.Hours__c}" 
+                        dateForHours="{!s.Date__c}"
+                    />
+                </div>
+            </div>
+        </aura:iteration>
+    </div>
+
+    <!--  spinner  -->
+    <div>
+        <lightning:spinner aura:id="rowSpinner" class="slds-show" variant="brand" size="large" alternativeText="spinner"/>
+    </div>
+        
+</aura:component>

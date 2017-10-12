@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule_Hours_less_than_24</fullName>
+    <active>true</active>
+    <description>ensures the schedule__c.hours__c field is between 0 and 24</description>
+    <errorConditionFormula>OR( Hours__c &lt; 0 , Hours__c > 24 )</errorConditionFormula>
+    <errorDisplayField>Hours__c</errorDisplayField>
+    <errorMessage>Please enter number of hours between 0 and 24</errorMessage>
+</ValidationRule>
