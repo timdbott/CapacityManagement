@@ -4,7 +4,7 @@
         var team = component.get("v.team"),
             users = component.get("v.srnUsers"),
             teamMembers = [],
-            usersTeam, i, j, userId;
+            usersTeam, i, j, userId, caseOwnerId;
 
             //console.log('CapacitySchedulesUsers.doInit looking for team: ' + team);
 
