@@ -24,7 +24,7 @@ public with sharing class ScheduleController {
                     ORDER BY srNetwork_Team__c, Name
                     ];
 
-        //system.debug('geo: ' + geo + ' - getSrnUsers #: ' + users.size());
+        system.debug('geo: ' + geo + ' - getSrnUsers #: ' + users.size());
 
 		return users;
 	}
