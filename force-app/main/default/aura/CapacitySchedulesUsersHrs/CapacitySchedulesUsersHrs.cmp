@@ -1,10 +1,14 @@
 <aura:component controller="ScheduleController">
-    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    
+    <!--  ATTRIBUTES  -->
     <aura:attribute name="startDate" type="Date"/>
     <aura:attribute name="daysToDisplay" type="Integer"/>
     <aura:attribute name="userId" type="String"/>
     <aura:attribute name="scheduleRcds" type="Schedule__c[]"/>
     <aura:attribute name="userHours" type="Schedule__c[]"/>
+
+    <!--  EVENTS  -->
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
     <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
     <aura:handler name="change" action="{!c.doInit}" value="{!v.scheduleRcds}"/>
 
