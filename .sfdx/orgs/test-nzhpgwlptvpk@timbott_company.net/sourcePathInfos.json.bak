@@ -1,0 +1,3272 @@
+[
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1507814774000,
+            "changeTime": 1507814774000,
+            "contentHash": "51d86f3b64a3d9a0048d192f02147b0e9e9594e4",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1507814774000,
+            "changeTime": 1507814774000,
+            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 272,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "30e0fe6eaaba7f5c8620690371bfcb5e03d148d0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 1156,
+            "modifiedTime": 1507830493000,
+            "changeTime": 1507830493000,
+            "contentHash": "bafed0daa9fcc3b87ac94c1cf82927c56aafc2ff",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagement",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagement",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "27484af6c36dca7071aaa7301ddf05bfe383d714",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagement/CapacityManagement.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagement/CapacityManagement.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2332,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "969c38b28a1174f40e6c241845badf074c02b8b1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagement/CapacityManagement.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagement/CapacityManagement.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 220,
+            "modifiedTime": 1507822741000,
+            "changeTime": 1507822741000,
+            "contentHash": "f33e315877d883228f15678af3a0a0ad4b58d132",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagement/CapacityManagementController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagement/CapacityManagementController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 371,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "11a11001770479acda56e6e6d0b888d546b50ccf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagement/CapacityManagementHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagement/CapacityManagementHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1598,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "cf3013cefdc637244a81e7653666dd90589c7134",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCaseAssigned",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCaseAssigned",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "1bf68ace6f3b157aacc1ec495a893a7e55f03a54",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCaseAssigned/CapacityManagementCaseAssigned.evt",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCaseAssigned/CapacityManagementCaseAssigned.evt",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 178,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "4ec27087ad3b54d5bd9cf21f6500cf47b50e226b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCaseAssigned/CapacityManagementCaseAssigned.evt-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCaseAssigned/CapacityManagementCaseAssigned.evt-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 254,
+            "modifiedTime": 1507822752000,
+            "changeTime": 1507822752000,
+            "contentHash": "6e678f3dd8c250d006819041d5f071991990ad53",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 238,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "1abdc2a26af758095cb9b7a718b4d879ec7623f9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases/CapacityManagementCases.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases/CapacityManagementCases.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4532,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "b4ad6c75dcc3b8c702f71fc59b843ee7c661e841",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases/CapacityManagementCases.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases/CapacityManagementCases.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 223,
+            "modifiedTime": 1507822761000,
+            "changeTime": 1507822761000,
+            "contentHash": "da11cc6ee571901a7254ad2a63dbff950bf6a779",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases/CapacityManagementCases.css",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases/CapacityManagementCases.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 42,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "abd34dc8b0b2afd7b6e437ba36fb1f5d77249ff9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases/CapacityManagementCasesController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases/CapacityManagementCasesController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3107,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "542b44e06c668f0676a7c7b3848380a4ec2b7988",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases/CapacityManagementCasesHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCases/CapacityManagementCasesHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 37,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "82bff16b3e0b457e56a7b6c6ea32695c8ebb9d7b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 238,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "c0684a251afb99b3c4ca82a9f956b58b7e8a3251",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow/CapacityManagementCasesRow.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow/CapacityManagementCasesRow.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6361,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "f5393a52fe4e2a92233bc486c5c599888a2589d1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow/CapacityManagementCasesRow.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow/CapacityManagementCasesRow.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 253,
+            "modifiedTime": 1507822768000,
+            "changeTime": 1507822768000,
+            "contentHash": "aa51f5e4dd435d7c2b10399ca85cc4212f6af418",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow/CapacityManagementCasesRow.css",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow/CapacityManagementCasesRow.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow/CapacityManagementCasesRowController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow/CapacityManagementCasesRowController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1585,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "2cc62bc3a489f1f11cdaba92099c330cfcf935d2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow/CapacityManagementCasesRowHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesRow/CapacityManagementCasesRowHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4318,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "1dd868b00df10cf595e413769f032b5bf4019981",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 238,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "60a2512bf2562243fd64ecd205b179aba03be70a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup/CapacityManagementCasesUserLookup.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup/CapacityManagementCasesUserLookup.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1400,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "ea03c505a7b1308886ac3a442a919a9686ab3f29",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup/CapacityManagementCasesUserLookup.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup/CapacityManagementCasesUserLookup.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 263,
+            "modifiedTime": 1507822776000,
+            "changeTime": 1507822776000,
+            "contentHash": "1a9d7291184f514a6eb35642e5715b8c0112520f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup/CapacityManagementCasesUserLookup.css",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup/CapacityManagementCasesUserLookup.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup/CapacityManagementCasesUserLookupController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup/CapacityManagementCasesUserLookupController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1674,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "60057268bbd1a997a4073e55b74d9db2fd97572c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup/CapacityManagementCasesUserLookupHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementCasesUserLookup/CapacityManagementCasesUserLookupHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5880,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "bb724b2d90e00a17a083a3d66ece329cbbf793e4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementNotifyHoursChangeEvent",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementNotifyHoursChangeEvent",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "17fb59f55f0d460e67e75816ff245de8d9759ba2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementNotifyHoursChangeEvent/CapacityManagementNotifyHoursChangeEvent.evt",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementNotifyHoursChangeEvent/CapacityManagementNotifyHoursChangeEvent.evt",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 91,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "b804e20eea9619b634cf4140202126a7f2a3ef4b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementNotifyHoursChangeEvent/CapacityManagementNotifyHoursChangeEvent.evt-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacityManagementNotifyHoursChangeEvent/CapacityManagementNotifyHoursChangeEvent.evt-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 309,
+            "modifiedTime": 1507822784000,
+            "changeTime": 1507822784000,
+            "contentHash": "b151936b076365bdc3ee3541a4db17bb80d6bc9c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedules",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedules",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "a3005b21ef65c2577ec09af04b6c43b2175f1276",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedules/CapacitySchedules.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedules/CapacitySchedules.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3510,
+            "modifiedTime": 1508247811000,
+            "changeTime": 1508247811000,
+            "contentHash": "37712228be7c98414d9ca17658e4db4f6c2b952f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedules/CapacitySchedules.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedules/CapacitySchedules.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 263,
+            "modifiedTime": 1507822791000,
+            "changeTime": 1507822791000,
+            "contentHash": "a16754760afaaf102aa0b7a8f3ec42e4c0353222",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedules/CapacitySchedulesController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedules/CapacitySchedulesController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3859,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "341843d47560b1c4382f6e346485dbb49d8c06e2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedules/CapacitySchedulesHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedules/CapacitySchedulesHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 15785,
+            "modifiedTime": 1508349621000,
+            "changeTime": 1508349621000,
+            "contentHash": "c7e05905832fffa194ad7a517ef00cc1539f1e0c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 272,
+            "modifiedTime": 1507830493000,
+            "changeTime": 1507830493000,
+            "contentHash": "6431139004195e783d459f01b7b91bfd69f0f4bb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUser.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUser.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2283,
+            "modifiedTime": 1508351325000,
+            "changeTime": 1508351325000,
+            "contentHash": "fb181b0e2f357f7ad08667018638d1b23aedead6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUser.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUser.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 333,
+            "modifiedTime": 1507830731000,
+            "changeTime": 1507830731000,
+            "contentHash": "4b70b796d812724a9693263f958f89903df44e2c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUser.css",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUser.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 10,
+            "modifiedTime": 1507830493000,
+            "changeTime": 1507830493000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUserController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUserController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 485,
+            "modifiedTime": 1508350818000,
+            "changeTime": 1508350818000,
+            "contentHash": "0fbad7606614011db1e18c3f244d6263a9c8306d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUserHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUserHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 7648,
+            "modifiedTime": 1508354595000,
+            "changeTime": 1508354595000,
+            "contentHash": "16a96ff71facd5ac458a3da3a4c5e335841977c4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUserRenderer.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUserRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 50,
+            "modifiedTime": 1507830493000,
+            "changeTime": 1507830493000,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 238,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "949f7df6a820f9f4d0cf2ecce4ed02ecafe8f712",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader/CapacitySchedulesHeader.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader/CapacitySchedulesHeader.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1982,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "f1959c56d126792b84e062693a1cd1be9862e10c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader/CapacitySchedulesHeader.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader/CapacitySchedulesHeader.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 224,
+            "modifiedTime": 1507822798000,
+            "changeTime": 1507822798000,
+            "contentHash": "6810be682a3d72904cf003b534744bc75764b892",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader/CapacitySchedulesHeader.css",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader/CapacitySchedulesHeader.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader/CapacitySchedulesHeaderController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader/CapacitySchedulesHeaderController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1403,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "9a38d5834cbc7112b5876d71c749ab046c03c2e2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader/CapacitySchedulesHeaderHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesHeader/CapacitySchedulesHeaderHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2253,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "a2a2695b272b54bddf8dc4cfca7d2fa4c91e8a4f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesTeams",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesTeams",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "06b16d0a9e7938f059c011c607f2391f4c15d652",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesTeams/CapacitySchedulesTeams.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesTeams/CapacitySchedulesTeams.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1676,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "022003d9220e096f18f73f998dbfbd931a983257",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesTeams/CapacitySchedulesTeams.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesTeams/CapacitySchedulesTeams.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 215,
+            "modifiedTime": 1507822804000,
+            "changeTime": 1507822804000,
+            "contentHash": "5feb05f2c7874a5a069e2984948172fb4527a56f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesTeams/CapacitySchedulesTeamsController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesTeams/CapacitySchedulesTeamsController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 682,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "3bd291ec32f981c6148204a2408548720b9fdc9c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesTeams/CapacitySchedulesTeamsHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesTeams/CapacitySchedulesTeamsHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 40,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "c3c6efda41de64b759982510d6a2c72226aa087f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsers",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsers",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "621f1ccce5e0200ff393cf5fa8ffc5b1d5de97b2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsers/CapacitySchedulesUsers.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsers/CapacitySchedulesUsers.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 926,
+            "modifiedTime": 1508348978000,
+            "changeTime": 1508348978000,
+            "contentHash": "4c373814d0b520c1d169af1863d92b16b674191a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsers/CapacitySchedulesUsers.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsers/CapacitySchedulesUsers.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 235,
+            "modifiedTime": 1507822812000,
+            "changeTime": 1507822812000,
+            "contentHash": "58c8fbf085a3654a81346dd6bc213ea47615c6f0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsers/CapacitySchedulesUsersController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsers/CapacitySchedulesUsersController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1834,
+            "modifiedTime": 1508355066000,
+            "changeTime": 1508355066000,
+            "contentHash": "68aed0f7866041f1e17405fcbedd55cb41ed9b24",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsers/CapacitySchedulesUsersHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsers/CapacitySchedulesUsersHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 8647,
+            "modifiedTime": 1508351991000,
+            "changeTime": 1508351991000,
+            "contentHash": "f94d4917906ecfeb53b5625fbd690996b2a84542",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsersHrs",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsersHrs",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "58ddfb19ff3157d4db9f172b79470a0f6dd386e9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsersHrs/CapacitySchedulesUsersHrs.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsersHrs/CapacitySchedulesUsersHrs.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1259,
+            "modifiedTime": 1508166623000,
+            "changeTime": 1508166623000,
+            "contentHash": "6b9ef7916e259131a6debc6734b83b2373a6ed49",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsersHrs/CapacitySchedulesUsersHrs.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsersHrs/CapacitySchedulesUsersHrs.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 222,
+            "modifiedTime": 1507822818000,
+            "changeTime": 1507822818000,
+            "contentHash": "f9fd9cb2f8fd6a1c78bc6d89e41202753dbe020c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsersHrs/CapacitySchedulesUsersHrsController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsersHrs/CapacitySchedulesUsersHrsController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 313,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "0bc6e47aca962f871e30a638b1a7cf0dc75cecdb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsersHrs/CapacitySchedulesUsersHrsHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsersHrs/CapacitySchedulesUsersHrsHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 7965,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "fb0097816d4561403782e0e0a9fa86ad2b7103b1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMySchedule",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMySchedule",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "45dab7be167fc6c4e4c8accaaec534b8ab39ae86",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMySchedule/CaseMySchedule.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMySchedule/CaseMySchedule.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2172,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "311f89811b2c0b6e447f5fd845652f453c2c7f37",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMySchedule/CaseMySchedule.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMySchedule/CaseMySchedule.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 254,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "9acd8d3bf4799dd397cf4eb9406eae52216ffaa4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMySchedule/CaseMyScheduleController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMySchedule/CaseMyScheduleController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2996,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "e7442fc0ac45acbcf3d0b70211de072e1f20b1fe",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMySchedule/CaseMyScheduleHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMySchedule/CaseMyScheduleHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2911,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "ed5f86c4482fdfb002a5e55abd993d39228a407d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMyScheduleRow",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMyScheduleRow",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "7bfc55a6ad2c93bc7ad53803cf0c524e50757e60",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMyScheduleRow/CaseMyScheduleRow.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMyScheduleRow/CaseMyScheduleRow.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1957,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "a4354d7e3a368dae7d14887c1e5b0311be4f252d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMyScheduleRow/CaseMyScheduleRow.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMyScheduleRow/CaseMyScheduleRow.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMyScheduleRow/CaseMyScheduleRowController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMyScheduleRow/CaseMyScheduleRowController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6706,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "501e060cecab83ea7b98bfe69a9dd3226bb56924",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMyScheduleRow/CaseMyScheduleRowHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseMyScheduleRow/CaseMyScheduleRowHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2046,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "58a3e7c1db688853aff66cef1a91317479347824",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotals",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotals",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "c4b0b39a187cab364fc0e1b21c28da0fb7f43d47",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotals/CaseScheduleTotals.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotals/CaseScheduleTotals.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2755,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "07dbd3e92e55b138d1ce677066892f1887975d7d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotals/CaseScheduleTotals.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotals/CaseScheduleTotals.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotals/CaseScheduleTotalsController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotals/CaseScheduleTotalsController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 109,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "cbcfb8ae1bc844df8771545a246648f12eb69645",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotals/CaseScheduleTotalsHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotals/CaseScheduleTotalsHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1380,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "2acdbd9ce9e55b53c5617150f1b33dd73181f2db",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotalsHeader",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotalsHeader",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "86a998f1d643884915ef39b7e06256871e5298ce",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotalsHeader/CaseScheduleTotalsHeader.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotalsHeader/CaseScheduleTotalsHeader.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2387,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "c4582815c5d8d80ac163e0fcfea8a5fbccb802d5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotalsHeader/CaseScheduleTotalsHeader.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotalsHeader/CaseScheduleTotalsHeader.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotalsHeader/CaseScheduleTotalsHeaderController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotalsHeader/CaseScheduleTotalsHeaderController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1246,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "d65a9164eb4c68e6a801fefffaf265e489935c91",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotalsHeader/CaseScheduleTotalsHeaderHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseScheduleTotalsHeader/CaseScheduleTotalsHeaderHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1101,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "92a27213f6f1f0a5bd83d98e7d7b948cf17927e0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseSchedules",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseSchedules",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "81f1c9601707532aa8217e95bc77e82236f9ec48",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseSchedules/CaseSchedules.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseSchedules/CaseSchedules.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3588,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "a015abc828d61bd6bc556614dfe68940ccc06835",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseSchedules/CaseSchedules.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseSchedules/CaseSchedules.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 251,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "124e4ee53f21eced32536eda6cb52d4dfd9e82cf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseSchedules/CaseSchedulesController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseSchedules/CaseSchedulesController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3017,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "a7c9c2691627958b2d973bc1e7791174d2dd8d0c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseSchedules/CaseSchedulesHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseSchedules/CaseSchedulesHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 7688,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "844752a9c3b278391342c25039752c303209e058",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamSchedule",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamSchedule",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "fe86529bab254a4a6c13a78c17fad6ce1ea04136",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamSchedule/CaseTeamSchedule.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamSchedule/CaseTeamSchedule.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1534,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "1dfb2a3b2e167ca853551b4788f71d4169dbc4a8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamSchedule/CaseTeamSchedule.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamSchedule/CaseTeamSchedule.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 275,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "11b4bafee80ca248d477040e40b9311f44c1fb59",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamSchedule/CaseTeamScheduleController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamSchedule/CaseTeamScheduleController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2781,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "f5ed7675f4dc32afa51f06d3fcd12c03a6684e95",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamSchedule/CaseTeamScheduleHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamSchedule/CaseTeamScheduleHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2887,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "29b26f0f28d2386156ba87a685d7c1d5d0c98600",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamScheduleRow",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamScheduleRow",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "54f4d52299d3443f357a533831fb13cc2d64dbd5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamScheduleRow/CaseTeamScheduleRow.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamScheduleRow/CaseTeamScheduleRow.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1883,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "26626f7d05c54a5d2d2fb58e9396be6c13affee8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamScheduleRow/CaseTeamScheduleRow.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamScheduleRow/CaseTeamScheduleRow.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 275,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "11b4bafee80ca248d477040e40b9311f44c1fb59",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamScheduleRow/CaseTeamScheduleRowController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamScheduleRow/CaseTeamScheduleRowController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 109,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "cbcfb8ae1bc844df8771545a246648f12eb69645",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamScheduleRow/CaseTeamScheduleRowHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CaseTeamScheduleRow/CaseTeamScheduleRowHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5679,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "d2a901342add90e9e0b0f00295bcab4f883fbc74",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MySchedule",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MySchedule",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "8075a7a430b432999c3c9c6b45fb9f7d1c306fd9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MySchedule/MySchedule.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MySchedule/MySchedule.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5125,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "63f611c59c19cd2d337f8be971a85ac868f4c7d8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MySchedule/MySchedule.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MySchedule/MySchedule.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 234,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "7c213300d67fad4ac205e965a415c131f72bc6bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MySchedule/MyScheduleController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MySchedule/MyScheduleController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2963,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "ea4d4663df3d7c157561437f60aca8e173f05ab4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MySchedule/MyScheduleHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MySchedule/MyScheduleHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9708,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "ca46a76f926eb6e7d809bf96c5d4213b365d6d01",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminCases",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminCases",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "aed8524e4c4aa88f9eee860d876400a0c04ee47b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminCases/MyScheduleAdminCases.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminCases/MyScheduleAdminCases.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1151,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "5c29465f637accc76058e700ed4f4db53feb9d8b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminCases/MyScheduleAdminCases.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminCases/MyScheduleAdminCases.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 244,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "db48524f339b65a620f450c15dc6cb701c4d0435",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminCases/MyScheduleAdminCases.css",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminCases/MyScheduleAdminCases.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 42,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "abd34dc8b0b2afd7b6e437ba36fb1f5d77249ff9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminCases/MyScheduleAdminCasesController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminCases/MyScheduleAdminCasesController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 859,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "eb907f7cdf8885383c0e96d7caf7b4766990ed42",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 238,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "dc6af642e070bda69415df88cab3912fb2f39901",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase/MyScheduleAdminForaCase.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase/MyScheduleAdminForaCase.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2164,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "4490112312d2f788d6d9e9e83594f1abca62618e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase/MyScheduleAdminForaCase.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase/MyScheduleAdminForaCase.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 246,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "320bea15a2e0cd876ecb594f2e70129e4012328d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase/MyScheduleAdminForaCase.css",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase/MyScheduleAdminForaCase.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 42,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "abd34dc8b0b2afd7b6e437ba36fb1f5d77249ff9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase/MyScheduleAdminForaCaseController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase/MyScheduleAdminForaCaseController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6444,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "09e2c11dea7eb99372759d48d5928f5f8fdf4fd0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase/MyScheduleAdminForaCaseHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminForaCase/MyScheduleAdminForaCaseHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2046,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "58a3e7c1db688853aff66cef1a91317479347824",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 238,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "7858dfda423cb3641931daa88e4ac852e992904e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader/MyScheduleAdminHeader.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader/MyScheduleAdminHeader.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3319,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "8cde18d824a30982f860e3e5bc92c141ed944e93",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader/MyScheduleAdminHeader.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader/MyScheduleAdminHeader.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 243,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "f82b55bb4cc0ba3dfa65793762ecdf1c3eda574a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader/MyScheduleAdminHeader.css",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader/MyScheduleAdminHeader.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader/MyScheduleAdminHeaderController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader/MyScheduleAdminHeaderController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1427,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "fdc68abb6a61df5ccd841647de1ed11c6b841ed3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader/MyScheduleAdminHeaderHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeader/MyScheduleAdminHeaderHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1380,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "be3343cec8e345cdaf4ff49ba3709c3923bbd6b6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeaderDate",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeaderDate",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "8c5d4a12a667d21ba3ddaf9e6eed9c80453c07d2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeaderDate/MyScheduleAdminHeaderDate.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeaderDate/MyScheduleAdminHeaderDate.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 754,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "993d632b72157ef14625cd4148d96696e9f66edd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeaderDate/MyScheduleAdminHeaderDate.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeaderDate/MyScheduleAdminHeaderDate.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 262,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "767d5d327041e7aaba36c11a5f3d5a96a21cffde",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeaderDate/MyScheduleAdminHeaderDateController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeaderDate/MyScheduleAdminHeaderDateController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 942,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "75c846f8935af837a2e40fd75a899120e6fa3a77",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeaderDate/MyScheduleAdminHeaderDateHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleAdminHeaderDate/MyScheduleAdminHeaderDateHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 932,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "eebd2e5fafcb192d3b87c9526b2f9998eb009e08",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleClosedCaseToggle",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleClosedCaseToggle",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "679d83dd7c70891d47b4be090e1470e6aa26d3c8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleClosedCaseToggle/MyScheduleClosedCaseToggle.evt",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleClosedCaseToggle/MyScheduleClosedCaseToggle.evt",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 153,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "23aca2cd88a360a4619e1dabcd591f0a57ff319a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleClosedCaseToggle/MyScheduleClosedCaseToggle.evt-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleClosedCaseToggle/MyScheduleClosedCaseToggle.evt-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 234,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "4fffd4e4cfff5b4b9b63815dffdbcfad106eae4e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 238,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "4214035352a56ddde0b1a11136a3bdfc603bc3c0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCase.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCase.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5684,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "2f6090c9b70a4b2970c3106498fc98a9f607ca35",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCase.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCase.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 243,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "7dd6dd3d23c64d87547066ee799082f8a83be973",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCase.css",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCase.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 93,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "53ae059d67317358b10bbbc430858f7eb578d386",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCaseController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCaseController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6706,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "501e060cecab83ea7b98bfe69a9dd3226bb56924",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCaseHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCaseHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2046,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "58a3e7c1db688853aff66cef1a91317479347824",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "704e6905d0bd5ccd54c1a3c0baabb4e274462e5c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours/MyScheduleForaCaseHours.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours/MyScheduleForaCaseHours.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3263,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "ab4cd1bd5aa96e23581f51bd824d30f3e892b8df",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours/MyScheduleForaCaseHours.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours/MyScheduleForaCaseHours.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 240,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "c57d6547c7ca65ed71a5c1e3ff658e7c4efcdd59",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours/MyScheduleForaCaseHoursController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours/MyScheduleForaCaseHoursController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2041,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "c50fa02d0060245ba47228352e5e7040f69be203",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours/MyScheduleForaCaseHoursHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours/MyScheduleForaCaseHoursHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 8472,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "00cf4c9ebab8c64ae5b6b6d7983beca755777f10",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleHeader",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleHeader",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "a037e2538c443d4453b38b1e8ad8352e11094b7a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleHeader/MyScheduleHeader.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleHeader/MyScheduleHeader.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4521,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "d4dfe8317c28b00bc8e0c87b83838220277a0227",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleHeader/MyScheduleHeader.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleHeader/MyScheduleHeader.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 218,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "f63f2cfc8c13e92811431d2abb46a90bac186afa",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleHeader/MyScheduleHeaderController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleHeader/MyScheduleHeaderController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "c8db26923de0ac9195dace6811015aacedada411",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleHeader/MyScheduleHeaderHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleHeader/MyScheduleHeaderHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1380,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "be3343cec8e345cdaf4ff49ba3709c3923bbd6b6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "a516d762f898e86e008492117bb4e903b36d2688",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases/MyScheduleOwnedCases.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases/MyScheduleOwnedCases.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2859,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "a5b4645c811d8efd00ee6a45e1d418c3d54d2ce5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases/MyScheduleOwnedCases.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases/MyScheduleOwnedCases.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 219,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "9fec77fddc347a7f34fef7b72112cb5a1a1861e3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases/MyScheduleOwnedCasesController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases/MyScheduleOwnedCasesController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 655,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "449688e87a4b491e0fcaec45aa88e1d3dbbb87c1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases/MyScheduleOwnedCasesHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases/MyScheduleOwnedCasesHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2252,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "4a6dfbd1640b6cdd404c07f84d9682eb80451296",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotals",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotals",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "a4045dad1233f937e7b111b675377b63911dc00f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotals/MyScheduleTotals.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotals/MyScheduleTotals.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3111,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "a2c7db83f70050d0a57a6746020fe7232d4d4c28",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotals/MyScheduleTotals.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotals/MyScheduleTotals.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 238,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "67fcba1f10778b9ce09a90048b895c9a663c42ba",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotals/MyScheduleTotalsController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotals/MyScheduleTotalsController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 109,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "cbcfb8ae1bc844df8771545a246648f12eb69645",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotals/MyScheduleTotalsHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotals/MyScheduleTotalsHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1380,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "2acdbd9ce9e55b53c5617150f1b33dd73181f2db",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotalsHeader",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotalsHeader",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "55b99bf489393ceb03dfe8b2884011f097bdeaa8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotalsHeader/MyScheduleTotalsHeader.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotalsHeader/MyScheduleTotalsHeader.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3638,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "1093cea25d90e57caaa40c72021e93996801e384",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotalsHeader/MyScheduleTotalsHeader.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotalsHeader/MyScheduleTotalsHeader.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 221,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "860ac4a42e835eaf20afeb90a797023c593c4236",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotalsHeader/MyScheduleTotalsHeaderController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotalsHeader/MyScheduleTotalsHeaderController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1246,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "d65a9164eb4c68e6a801fefffaf265e489935c91",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotalsHeader/MyScheduleTotalsHeaderHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleTotalsHeader/MyScheduleTotalsHeaderHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1101,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "92a27213f6f1f0a5bd83d98e7d7b948cf17927e0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleUnownedCases",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleUnownedCases",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 170,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "c1a799df9aef15a31903d03731e33d98a68c67b5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleUnownedCases/MyScheduleUnownedCases.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleUnownedCases/MyScheduleUnownedCases.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2926,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "f207f2a1affdace388d95ce163f458993eee748f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleUnownedCases/MyScheduleUnownedCases.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleUnownedCases/MyScheduleUnownedCases.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 240,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "18e34d9f18fb96aa7adfeeedd4681af1f5be0c59",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleUnownedCases/MyScheduleUnownedCasesController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleUnownedCases/MyScheduleUnownedCasesController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3422,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "3a6f479ae15ab5f43fe6d9504b0bf0df5661aeb3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/classes",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "4094b61c66417caa67b260f842dc7348fe049719",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/classes/CapacityManagementController.cls",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/classes/CapacityManagementController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 5628,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "0f1f66f3d008115dfbfe3312cbff08f0ea81c2ed",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/classes/CapacityManagementController.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/classes/CapacityManagementController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "35384e5e44ad3af7451dabe011db908c07dc85cf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/classes/ScheduleController.cls",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/classes/ScheduleController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 24107,
+            "modifiedTime": 1508168106000,
+            "changeTime": 1508168106000,
+            "contentHash": "ee5a7a1425fea0613852c991ae198a6e9a9b154a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/classes/ScheduleController.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/classes/ScheduleController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "d3aef1962f612e7e3db36e965fa06b72bf50ee30",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/flexipages",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/flexipages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "86d71098b8b6d295611c9475ab12449e21a76759",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/flexipages/Schedule_Record_Page.flexipage-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/flexipages/Schedule_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2189,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "ea522e7a9e41bea1a2068384cb2d2cee9d1b2e81",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/layouts",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "8088987fd3058454e9cbb7cf60a0d5a7fb09ce91",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/layouts/Schedule__c-Schedule Layout.layout-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/layouts/Schedule__c-Schedule Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2527,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "8d80687702e0ab11c8f821f05ed7389bb6fca379",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "0635d8b644378d40539c1bc416948a9f7dadd316",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Account",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Account",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "82a5078765c2f1122397f2a823a7250f80f7bbdb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Account/Account.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Account/Account.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 103,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "280bec81c7b70604977205601148d4a33006ab0f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Account/fields",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Account/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "516de274dae83da94ad775a8a8208be27137d245",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Account/fields/Account_Classification__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Account/fields/Account_Classification__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2775,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "cb5d39092f8ffdf63294d1262ed70b3c0b56654e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "7c277a4a3fea161827da03d3f2c58591e969e632",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/Case.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/Case.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 103,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "280bec81c7b70604977205601148d4a33006ab0f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 476,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "9e24916149c3b74c4514bad26df568258f596177",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Account_Classification__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Account_Classification__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 467,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "6a5069e0ab16c73e410e146bc38ec9e3226da4b7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Account_Name_Text__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Account_Name_Text__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 486,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "353e86d97756116b3c5983c3fa5e6afddaa5c249",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Administrative_for_CM__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Administrative_for_CM__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 434,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "3223cf96c726ab541aeb3f439d773aab880fdf89",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Days__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Days__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 798,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "a4acc51895d88b28f7656993d527cf65efc41b3c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Opportunity_Est_Disc_Sales__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Opportunity_Est_Disc_Sales__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1989,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "69feb5055344237027d6d391c5fc6c655a2d921c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Opportunity_Name__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Opportunity_Name__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 496,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "b244fc26fe64cdb2a5ab5ce1c9cbc23cd9205ff4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Opportunity__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Opportunity__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 591,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "2357893b65d96b75a53e5322392585f94b5223e8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Region__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Region__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1339,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "b2e32933723b7687353ee31179ec9e7509cbcf9c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Requested_Completion_Date__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Requested_Completion_Date__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 429,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "3bda6e93685ffe51be5d3ffccbf8a75b373035e0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Requested_Service__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Requested_Service__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 466,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "d6a2d7e313523d48d58fa563ccde6d1436a05020",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Service_Requested_By_Name__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Service_Requested_By_Name__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 577,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "6a76d0a1a1d44952449a6ed10b1eae817201fea4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Service_Requested_By__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Case/fields/Service_Requested_By__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 552,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "f803665aba2ded5e5293e7ebcd22dae7276f5e3f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 170,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "454a7f052ee72b7967a0e42a25741b9a5fccd498",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/Schedule__c.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/Schedule__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2360,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "f88dcd60d65f2e5fec131ac0b9b4a58fe45b09f2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 476,
+            "modifiedTime": 1507821173000,
+            "changeTime": 1507821173000,
+            "contentHash": "d38bbf0f4841b0bd2c9986bbfcd5725f3164b44b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Administrative_Hours__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Administrative_Hours__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 651,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "58d256e13322a4233e224f4b5baffd0696548549",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Capacity_Hours__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Capacity_Hours__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 614,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "15a5c6cabf6a8cccc24489348fafa28be24299c1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Case__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Case__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 588,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "a60c31e1be54cc932512a73e590d2aaecbfe26ad",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Date__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Date__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 421,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "e4466b6fb57887108b05d827c2cb3011803bf5b2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Hours__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Hours__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 522,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "7942b8be13735bb74963d9a96d0ac642034ced31",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/OwnerId__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/OwnerId__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 446,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "4e958a979b8905af880b337567961cd809236a4e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Requested_Service__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Requested_Service__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 522,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "d444b0281372f0bbb4c163387c034f4eeb3b57ad",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Status__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Status__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 494,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "b9fa9b444a6683e614a3185720f9926e15527143",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/User_Region__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/User_Region__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 522,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "0ccbc133a2e19ee0103eddc7de17f239885a6374",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Work_Hours__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/Work_Hours__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 618,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "39e9f077dcf00b5b991e2ca3d189459b11a6c4b5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/duplicateScheduleCheck__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/duplicateScheduleCheck__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 485,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "990147eadd93707da7ccb373e5579563be357edb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/srNetwork_Team__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/fields/srNetwork_Team__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 522,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "f32c8213a7f3cd581708c7cdb00188e505efddec",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/validationRules",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/validationRules",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "a0f0a1c523b440520c7f6ec19688c9e69e1ca90d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/validationRules/Schedule_Hours_less_than_24.validationRule-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/Schedule__c/validationRules/Schedule_Hours_less_than_24.validationRule-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 511,
+            "modifiedTime": 1507815317000,
+            "changeTime": 1507815317000,
+            "contentHash": "bd2b3365324a7fd611e5c41e379c2f50ff124d11",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/User",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/User",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "d9661054a97871cc685f7493e3771c8b254fedc6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/User/User.object-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/User/User.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 103,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "280bec81c7b70604977205601148d4a33006ab0f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/User/fields",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/User/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "cb5aaebee475152ae624243247285db20e8c84f1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/User/fields/Sales_Geography__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/User/fields/Sales_Geography__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 459,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "010e07a5bf00d648be5df7baba5be10cfb066ae4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/User/fields/srNetwork_Team__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/objects/User/fields/srNetwork_Team__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9520,
+            "modifiedTime": 1507815318000,
+            "changeTime": 1507815318000,
+            "contentHash": "0512280599bf1663cb7f1968cf132a07f62234cf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/timbott/Documents/VisualStudioCode/CapacityManagement",
+        {
+            "state": "n",
+            "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 374,
+            "modifiedTime": 1507815954000,
+            "changeTime": 1507815954000,
+            "contentHash": "559765eb59f6f27448a69a68afd55b351f2bf769",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
