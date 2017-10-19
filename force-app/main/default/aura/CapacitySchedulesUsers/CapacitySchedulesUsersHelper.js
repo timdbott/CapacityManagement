@@ -101,7 +101,7 @@
                 	schedules = [],
                 	schAry = [],
                 	schedule, errSchedule, totalDateHours, date, hour, i, j, m, o, p, r, calDate, fDate, y, m, d;
-                //console.log('datesInRange: ' + datesInRange.length);
+                console.log('CapacityScheduleUsers.getSchedules.sArray length: ' + sArray.length);
                 sArray = response.getReturnValue();
 
                 component.set("v.scheduleRcds", sArray);

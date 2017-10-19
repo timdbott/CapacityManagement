@@ -1,13 +1,56 @@
 <aura:component>
 
     <!--  ATTRIBUTES -->
-        <!--  userId, dates  -->
+    <aura:attribute name="startDate" type="Date"/>
+    <aura:attribute name="daysToDisplay" type="Integer"/>
+    <aura:attribute name="user" type="User"/>
     <aura:attribute name="userId" type="String"/>
+    <aura:attribute name="scheduleRcds" type="Schedule__c[]"/>
+    <aura:attribute name="showUserSchedules" type="Boolean" default="false"/>
+    <aura:attribute name="userHours" type="Schedule__c[]"/>
 
     <!--  EVENTS -->
-        <!--  query for user's schedule records during date range  -->
-        <!--  dynamically create view-only row component for each case -->
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
 
-        <h1>a {!v.userId}'s schedule record during a date range</h1>
+    <div class="slds-grid slds-p-vertical--xx-small slds-align--left">
+        <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12" style="max-width:10.0rem;min-width:10.0rem">
+                
+            <!--  this is where the user's name needs to open the user's schedule....someplace on the screen  -->
 
-</aura:component>	
+            <div class="slds-truncate slds-text-align--right">
+                <span onclick="{!c.toggleUserSchedules}">{!v.user.Name}</span>
+            </div>
+
+        </div>
+
+        <c:CapacitySchedulesUsersHrs userId="{!v.userId}"
+            startDate="{!v.startDate}" 
+            daysToDisplay="{!v.daysToDisplay}"
+            scheduleRcds="{!v.scheduleRcds}"
+        />
+    </div>
+
+        <aura:renderIf isTrue="{!v.showUserSchedules}">
+            
+        <div class="slds-grid slds-p-vertical--xx-small slds-align--left">
+            <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12" style="max-width:10.0rem;min-width:10.0rem">
+                    
+                <!--  this is where the user's name needs to open the user's schedule....someplace on the screen  -->
+    
+                <div class="slds-truncate slds-text-align--right">
+                    <span onclick="{!c.toggleUserSchedules}">{!v.user.Name}</span>
+                </div>
+    
+            </div>
+
+            <c:CapacitySchedulesUsersHrs userId="{!v.userId}"
+                startDate="{!v.startDate}" 
+                daysToDisplay="{!v.daysToDisplay}"
+                scheduleRcds="{!v.scheduleRcds}"
+            />
+        </div>
+            <aura:set attribute="else"></aura:set>
+        </aura:renderIf>
+        
+
+</aura:component>

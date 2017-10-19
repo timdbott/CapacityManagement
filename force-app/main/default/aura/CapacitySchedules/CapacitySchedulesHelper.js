@@ -87,6 +87,7 @@
         return datesInWeek;
     },
 
+    // returns the user info including srNetwork Team
     retrieveUserInfo : function(component, event) {
         
         console.log('CapacitySchedules started retrieveUserInfo');
@@ -115,6 +116,7 @@
         $A.enqueueAction(action);
     },
     
+    // not used anymore
     init : function(component, event) {
         
     	// Get the record id
@@ -236,6 +238,7 @@
         $A.enqueueAction(action);
     },
 
+    // group the users into their teams
     findTeams : function(component, event) {
 
         console.log('CapacitySchedules started findTeams');
@@ -296,6 +299,7 @@
 
     },
 
+    // filter through srnUsers to find matches for caseTeam
     filterSrnUsers : function(component, event) {
 
         var caseTeam = component.get("v.caseTeam"),
@@ -328,6 +332,7 @@
         this.createCapacityScheduleTeams(component, event);
     },
 
+    // createCapacityScheduleTeams.cmp
     createCapacityScheduleTeams : function(component, event) {
 
         console.log('CapacitySchedules started createCapacityScheduleTeams');

@@ -6,8 +6,8 @@
             teamMembers = [],
             usersTeam, i, j, userId, caseOwnerId;
 
-            //console.log('CapacitySchedulesUsers.doInit looking for team: ' + team);
-
+            console.log('CapacitySchedulesUsers.doInit looking for team: ' + team);
+            console.log('CapacitySchedulesUsers.doInit scheduleRcds.length: ' + component.get("v.scheduleRcds").length);
 
         for (i = 0, j = users.length; i < j; i = i + 1) {
             usersTeam = users[i].srNetwork_Team__c;
@@ -32,6 +32,19 @@
 
         component.set("v.teamMembers", teamMembers);
         
+        // retrieve the schedules for these dates
         helper.getSchedules(component, event);
+    },
+
+    toggleUserSchedules : function(component, event, helper) {
+
+        var userId = event.getSource().getLocalId();
+        
+        //var userId = "CapacitySchedulesUsersController";
+
+        //component.set("v.body",userId);
+
+        console.log('userId: ' + userId);
+
     }
 })

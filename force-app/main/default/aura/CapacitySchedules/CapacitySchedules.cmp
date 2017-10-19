@@ -26,13 +26,13 @@
             <!-- date filter -->
             <lightning:layoutItem padding="around-small" class="slds-m-top--large">
                 <span>
-                	<lightning:buttonIcon aura:id="btn_prevWk" iconName="utility:chevronleft" onclick="{!c.changeDate}" alternativeText="previous week" />
+                	<lightning:buttonIcon aura:id="btn_prevWk" variant="inverse" iconName="utility:chevronleft" onclick="{!c.changeDate}" alternativeText="previous week" />
                 </span>
                 <span class="slds-text-title slds-p-left--xx-small slds-p-right--xx-small">
                 	{!v.formattedDateHeader}
                 </span>
                 <span>
-                    <lightning:buttonIcon aura:id="btn_nextWk" iconName="utility:chevronright" onclick="{!c.changeDate}" alternativeText="next week" />
+                    <lightning:buttonIcon aura:id="btn_nextWk" variant="inverse" iconName="utility:chevronright" onclick="{!c.changeDate}" alternativeText="next week" />
                 </span>
             </lightning:layoutItem>
             <!-- team filter -->
