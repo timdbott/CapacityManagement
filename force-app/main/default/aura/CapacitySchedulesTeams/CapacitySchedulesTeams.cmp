@@ -22,7 +22,7 @@
         <!-- team header row -->
         <div class="slds-col">
             <aura:iteration var="t" items="{!v.newCaseTeams}">
-                <div class="slds-section__title slds-section-title--divider slds-text-align--left slds-p-vertical--small" >
+                <div class="slds-section__title slds-section-title_divider slds-text-align_left slds-p-vertical_small" >
                 	{!t}
                 </div>
                 

@@ -97,67 +97,26 @@
             
             if (component.isValid() && state === "SUCCESS") {
                 //console.log('CapacityScheduleUsers.getUserSchedules query state: ' + state);
-                var sArray = [],
+                var teamMembers = component.get("v.teamMembers"),
+                    sArray = [],
                 	schedules = [],
                 	schAry = [],
                 	schedule, errSchedule, totalDateHours, date, hour, i, j, m, o, p, r, calDate, fDate, y, m, d;
                 console.log('CapacityScheduleUsers.getSchedules.sArray length: ' + sArray.length);
+                console.log('CapacityScheduleUsers.getSchedules.teamMembers length: ' + teamMembers.length);
+
                 sArray = response.getReturnValue();
 
                 component.set("v.scheduleRcds", sArray);
 
-                //console.log('CapacityScheduleUsers.getSchedules # of schedules: ' + sArray.length);
-            /*
-                // loop through days in week
-                for (m = 0, o = datesInRange.length; m < o; m = m + 1) {
-                    
-                    //console.log('for date: ' + datesInRange[m]);
-                    hour = 0;
-                    schedule = {};
-                    
-                    // loop through schedule__c records
-                    for (i = 0, j = sArray.length; i < j; i = i + 1) {
-                        
-                        var sDate = sArray[i].Date__c;
-                        
-                        //console.log(i + 'hours: ' + hour + ' - sdate: ' + sDate + ' - id: ' + sArray[i].Id + ' - datesInRange[m]: ' + datesInRange[m] );
-                          
-                        if ( datesInRange[m].toString() === sDate.toString() ) {
-                            if (sArray[i].Hours__c > 0) {
-                                hour = hour + sArray[i].Hours__c;
-                                //console.log('date: ' + datesInRange[m] + ' - sDATE: ' + sArray[i].Date__c + ' - HOURS: ' + sArray[i].Hours__c + ' - total: ' + hour);
-                                schedule = {Date__c: datesInRange[m], Hours__c: hour};
-                            }
-                            
-                            //console.log('dates match for case: ' + sArray[i].Case__c + ' - schedule date: ' + sArray[i].Date__c + ' - hours: ' + sArray[i].Hours__c + ' - total hrs: ' + hour);
-                            //console.log('hour: ' + sArray[i].Hours__c + ' - schedule date: ' + datesInRange[m] + '--' + sArray[i].Date__c);
-                            //hour = hour + sArray[i].Hours__c;
-                            //schedule = sArray[i];
-                            //schAry.push(sArray[i]);
-                        } else {
-                            /*
-                            console.log('ELSE * date: ' + datesInRange[m] + ' - sDATE: ' + sArray[i].Date__c + ' - HOURS: ' + sArray[i].Hours__c + ' - total: ' + hour);
-                            if (hour > 0) {
-                                //schedule = sArray[i];
-                                schedule = {Date__c: datesInRange[m], Hours__c: hour};
-                                console.log(' - total hours: ' + hour + ' - schedule date: ' + datesInRange[m]);
-                            }
-                            
-                            
-                            hour = 0;
-                            //console.log('RESET total hours: ' + hour + ' - NEW schedule date: ' + datesInRange[m] + '--' + sArray[i].Date__c);
-                        }
-                    }
+                for (i = 0, j = teamMembers.length; i < j; i=i+1) {
+                    var user = teamMembers[i];
+                    var userId = teamMembers[i].Id;
 
-                    // push hours into an array
-                    schAry.push(schedule);
-                    //schedules.push(hour);
+                    this.createUserSchdlRow(component, event,user, userId);
                 }
-				//component.set("v.schedules", schedules);
-                component.set("v.scheduleRcds", schAry);
 
-                console.log('schedule records #: ' + schAry.length);
-        */
+                
             } //else if (cmp.isValid() && state === "INCOMPLETE") {
             else if (state === "INCOMPLETE") {
                 console.log("CapacityScheduleUsers.getSchedules * Failed with state: " + state);
@@ -194,5 +153,30 @@
         $A.enqueueAction(action);
     
     
-    }	
+    },
+
+    createUserSchdlRow : function (component, event, user, userId) {
+
+        $A.createComponent(
+            "c:CapacitySchedulesForUser",
+            {
+                "aura:id" : "cpctyUserRow",
+                "startDate" : component.get("v.startDate"),
+                "daysToDisplay" : component.get("v.daysToDisplay"),
+                "user" : user,
+                "userId" : userId,
+                "scheduleRcds" : component.get("v.scheduleRcds")
+            },
+            function(newUserRow){
+                if (component.isValid()) {
+                    var body = component.get("v.body");
+                    // remove the last component created; there can be only one!
+                    //body.pop();
+                    // add the new component
+                    body.push(newUserRow);
+                    console.log("CapacitySchedulesUsers.createUserSchdlRow");
+                    component.set("v.body", body);
+                }
+            });
+    }
 })

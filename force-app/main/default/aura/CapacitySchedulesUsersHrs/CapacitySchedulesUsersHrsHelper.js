@@ -87,6 +87,8 @@
                 // get schedules array of objects
                 sArray = component.get("v.scheduleRcds");
 
+                console.log('CapacitySchedulesUsersHrs.getSchedules.sArray.length: ' + sArray.length);
+
                 // loop through days in week
                 for (m = 0, o = datesInRange.length; m < o; m = m + 1) {
                     

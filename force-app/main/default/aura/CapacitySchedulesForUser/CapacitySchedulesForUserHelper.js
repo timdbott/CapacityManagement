@@ -87,14 +87,14 @@
         // get schedules array of objects
         sArray = component.get("v.scheduleRcds");
 
+        //console.log('CapacitySchedulesForUser.sumSchedulesByCase.sArray.length: ' + sArray.length);
+
         // loop through days in week
         for (m = 0, o = datesInRange.length; m < o; m = m + 1) {
             
             //console.log('for date: ' + datesInRange[m]);
             hour = 0;
             schedule = {};
-
-            //console.log('CapacitySchedulesForUser.sumSchedulesByCase.sArray.length: ' + sArray.length);
 
             //console.log('owner: ' + userId + ' - date: ' + datesInRange[m] + ' - total: ' + hour);
 
@@ -110,7 +110,7 @@
                 
                 var sDate = sArray[i].Date__c;
                 
-                console.log(i + ' case type: ' + sArray[i].Case__r.Type + ' - hours: ' + hour + ' - sHour__c: ' + sArray[i].Hours__c + ' - sOwnerid: ' + sArray[i].OwnerId__c +  ' - rowOwnerId: ' + userId +' - datesInRange[m]: ' + datesInRange[m].toString() + ' - sDate.toString(): ' + sDate.toString() );
+                //console.log(i + ' case type: ' + sArray[i].Case__r.Type + ' - hours: ' + hour + ' - sHour__c: ' + sArray[i].Hours__c + ' - sOwnerid: ' + sArray[i].OwnerId__c +  ' - rowOwnerId: ' + userId +' - datesInRange[m]: ' + datesInRange[m].toString() + ' - sDate.toString(): ' + sDate.toString() );
                     
                 if ( datesInRange[m].toString() === sDate.toString() && sArray[i].OwnerId__c === userId) {
 

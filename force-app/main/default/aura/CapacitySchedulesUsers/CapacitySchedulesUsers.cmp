@@ -14,6 +14,7 @@
 
 
     <!-- user row -->
+    <!--
     <aura:iteration var="u" items="{!v.teamMembers}">
         
         <c:CapacitySchedulesForUser user="{!u}" 
@@ -24,5 +25,9 @@
         />
 
     </aura:iteration>
+    -->
+
+    <!--   createUserSchdlRow  -->
+    {!v.body}
 
 </aura:component>

@@ -1,5 +1,8 @@
 ({
     doInit : function(component, event, helper) {
+        var sArray = component.get("v.scheduleRcds");
+        console.log('CapacitySchedulesForUser.doInit sArray.length: ' + sArray.length);
+
         helper.sumSchedulesByCase(component, event);
     },
 
