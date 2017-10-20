@@ -14,7 +14,7 @@
     <aura:attribute name="hasSchedule" type="Boolean"/>
 
     <!-- header -->
-    <div class="slds-m-top--small slds-m-bottom--small">
+    <div class="slds-m-top_small slds-m-bottom_small">
         <c:MyScheduleHeader header="Owned Cases" startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
     </div>
     
@@ -24,9 +24,9 @@
 
 
       <!-- schedules -->
-      <div class="slds-m-top--small slds-m-bottom--small">
+      <div class="slds-m-top_small slds-m-bottom_small">
           <aura:iteration var="s" items="{!v.ownedCases}">
-              <div class="slds-m-top--small slds-m-bottom--small">
+              <div class="slds-m-top_small slds-m-bottom_small">
                   <c:MyScheduleForaCase caseId="{!s.Id}" 
                                          startDate="{!v.startDate}" 
                                          daysToDisplay="{!v.daysToDisplay}"
@@ -48,9 +48,9 @@
 
 
         <!-- message -->
-        <div class="slds-m-left--large slds-p-bottom--small">
-          <div class="slds-m-horizontal--xx-small slds-size--1-of-1 slds-medium-size--6-of-6 slds-large-size--12-of-12 slds-m-top--small">
-            <div class="slds-notify slds-notify--alert slds-theme--alert-texture" role="alert">
+        <div class="slds-m-left_large slds-p-bottom_small">
+          <div class="slds-m-horizontal_xx-small slds-size_1-of-1 slds-medium-size_6-of-6 slds-large-size_12-of-12 slds-m-top_small">
+            <div class="slds-notify slds-notify_alert slds-theme_alert-texture" role="alert">
               <span class="slds-assistive-text">Info</span>
               <h2>No Owned Cases</h2>
             </div>

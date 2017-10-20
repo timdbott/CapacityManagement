@@ -16,7 +16,7 @@
         <div class="slds-form-element">
             <div class="slds-form-element__control">
                 <ui:inputNumber aura:id="{!v.recordId}" 
-                    class="slds-input slds-text-align--center" 
+                    class="slds-input slds-text-align_center" 
                     value="{!v.loadedHours}"
                     format="0.00"
                     size="4"
@@ -30,7 +30,7 @@
         <div class="slds-form-element">
             <div class="slds-form-element__control">
                 <ui:inputNumber aura:id="{!v.recordId}" 
-                    class="slds-input slds-text-align--center" 
+                    class="slds-input slds-text-align_center" 
                     value="{!v.loadedHours}"
                     format="0.00"
                     size="4"
@@ -44,7 +44,7 @@
         <div class="slds-form-element">
             <div class="slds-form-element__control">
                 <ui:inputNumber aura:id="{!v.recordId}" 
-                    class="slds-input slds-text-align--center" 
+                    class="slds-input slds-text-align_center" 
                     value="{!v.loadedHours}"
                     format="0.00"
                     size="4"
@@ -58,7 +58,7 @@
         <div class="slds-form-element">
             <div class="slds-form-element__control">
                 <ui:inputNumber aura:id="{!v.recordId}" 
-                    class="slds-input slds-text-align--center" 
+                    class="slds-input slds-text-align_center" 
                     value="{!v.loadedHours}"
                     format="0.00"
                     size="4"

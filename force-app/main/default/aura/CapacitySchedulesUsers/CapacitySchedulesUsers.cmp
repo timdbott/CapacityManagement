@@ -27,7 +27,7 @@
     </aura:iteration>
     -->
 
-    <!--   createUserSchdlRow  -->
+    <!--  create CapacitySchedulesForUser.cmp via createUserSchdlRow  -->
     {!v.body}
 
 </aura:component>

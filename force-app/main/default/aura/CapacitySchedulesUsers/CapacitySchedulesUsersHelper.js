@@ -71,6 +71,7 @@
         return datesInWeek;
     },
 
+    // puts all schedules for these dates and this user into scheduleRcds
     getSchedules : function(component, event) {
         
     	// Get the record id
@@ -102,13 +103,14 @@
                 	schedules = [],
                 	schAry = [],
                 	schedule, errSchedule, totalDateHours, date, hour, i, j, m, o, p, r, calDate, fDate, y, m, d;
-                console.log('CapacityScheduleUsers.getSchedules.sArray length: ' + sArray.length);
-                console.log('CapacityScheduleUsers.getSchedules.teamMembers length: ' + teamMembers.length);
+                //console.log('CapacityScheduleUsers.getSchedules.sArray length: ' + sArray.length);
+                //console.log('CapacityScheduleUsers.getSchedules.teamMembers length: ' + teamMembers.length);
 
                 sArray = response.getReturnValue();
 
                 component.set("v.scheduleRcds", sArray);
 
+                // for each team member, create their total schedules row
                 for (i = 0, j = teamMembers.length; i < j; i=i+1) {
                     var user = teamMembers[i];
                     var userId = teamMembers[i].Id;
@@ -155,6 +157,7 @@
     
     },
 
+    // creates the user's schedules row component, which also generates schedules by case cmp
     createUserSchdlRow : function (component, event, user, userId) {
 
         $A.createComponent(

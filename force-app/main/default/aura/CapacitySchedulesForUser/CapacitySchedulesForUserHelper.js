@@ -71,6 +71,7 @@
         return datesInWeek;
     },
 
+    // take the user's total schedules and summarize by case
     sumSchedulesByCase : function(component, event) {
         
         var userId = component.get("v.userId"),
@@ -79,8 +80,10 @@
         	datesInRange = this.getWeekShortDates(component,startDate),
         	sArray = [],
         	schedules = [],
-        	schAry = [],
-        	schedule, date, hour, i, j, m, o;
+            schAry = [],
+            sCases = [],
+            uniqueCases = [],
+        	thisCase, schedule, date, hour, i, j, m, o, y, z;
 
         //console.log('initializing CapacitySchedulesForUser.sumSchedulesByCase...from ' + event.getSource() + ' - startDate: ' + startDate);
         
@@ -104,60 +107,101 @@
 
             // set default schedule object
             schedule = {Date__c: datesInRange[m], Hours__c: hour, Class:"slds-input slds-text-align--center slds-theme--default"};
-            
-            // loop through schedule__c records
+
+            // loop through schedule__c records to find the unique cases
             for (i = 0, j = sArray.length; i < j; i = i + 1) {
-                
-                var sDate = sArray[i].Date__c;
-                
-                //console.log(i + ' case type: ' + sArray[i].Case__r.Type + ' - hours: ' + hour + ' - sHour__c: ' + sArray[i].Hours__c + ' - sOwnerid: ' + sArray[i].OwnerId__c +  ' - rowOwnerId: ' + userId +' - datesInRange[m]: ' + datesInRange[m].toString() + ' - sDate.toString(): ' + sDate.toString() );
-                    
-                if ( datesInRange[m].toString() === sDate.toString() && sArray[i].OwnerId__c === userId) {
 
-                    //console.log('MATCH FOUND ON --> date: ' + datesInRange[m].toString() + ' - sDate: ' + sDate.toString() + ' - sOwnerId: ' + sArray[i].OwnerId__c + ' - userId: ' + userId);
-                    if (sArray[i].Hours__c > 0) {
+                var caseId = sArray[i].Case__c;
+                sCases.push(caseId);
 
-                        hour = hour + sArray[i].Hours__c;
-                            
-                        if (hour > 6) {
-                            schedule = {Date__c: datesInRange[m], Hours__c: hour, Class:"slds-input slds-text-align--center slds-theme--error"};
-                                console.log('sOwner: ' + sArray[i].OwnerId__c + ' - date: ' + datesInRange[m] + ' - sDATE: ' + sArray[i].Date__c + ' - HOURS: ' + sArray[i].Hours__c + ' - total: ' + hour);
-                        } else if (hour > 4) {
-                            //hour = hour + sArray[i].Hours__c;
-                            schedule = {Date__c: datesInRange[m], Hours__c: hour, Class:"slds-input slds-text-align--center slds-theme--warning"};
-                                console.log('sOwner: ' + sArray[i].OwnerId__c + ' - date: ' + datesInRange[m] + ' - sDATE: ' + sArray[i].Date__c + ' - HOURS: ' + sArray[i].Hours__c + ' - total: ' + hour);
-                        } else if (hour > 0) {
-                            //hour = hour + sArray[i].Hours__c;
-                            schedule = {Date__c: datesInRange[m], Hours__c: hour, Class:"slds-input slds-text-align--center slds-theme--success"};
-                                console.log('sOwner: ' + sArray[i].OwnerId__c + ' - date: ' + datesInRange[m] + ' - sDATE: ' + sArray[i].Date__c + ' - HOURS: ' + sArray[i].Hours__c + ' - total: ' + hour);
-                        } else {
-                            //hour = hour + sArray[i].Hours__c;
-                            schedule = {Date__c: datesInRange[m], Hours__c: hour, Class:"slds-input slds-text-align--center slds-theme--default"};
-                                console.log('sOwner: ' + sArray[i].OwnerId__c + ' - date: ' + datesInRange[m] + ' - sDATE: ' + sArray[i].Date__c + ' - HOURS: ' + sArray[i].Hours__c + ' - total: ' + hour);
-                        }
-                    }
-
-                    //schAry.push(schedule);
-
-                } else {
-
-                    //console.log('NO MATCH --> date: ' + datesInRange[m].toString() + ' - sDate: ' + sDate.toString() + ' - sOwnerId: ' + sArray[i].OwnerId__c + ' - userId: ' + userId);
-
-                    //hour = 0;
-                    //console.log('RESET total hours: ' + hour + ' - NEW schedule date: ' + datesInRange[m] + '--' + sArray[i].Date__c);
-                }
+                // convert unique Set of team members into an array and assign it to the component variable for iteration
+                uniqueCases = [...sCases];
             }
+
+            // loop through cases
+            for (y = 0, z = uniqueCases.length; y < z; i = i + 1) {
+                var thisCase = uniqueCases[y];
+
+                // loop through schedule__c records
+                for (i = 0, j = sArray.length; i < j; i = i + 1) {
+                    
+                    var sDate = sArray[i].Date__c;
+                    var sCase = sArray[i].Case__c;
+                    var sCaseType = sArray[i].Case__r.Type;
+
+                    console.log('CapacitySchedulesForUserByCase sCase: ' + sCase + ' - caseType: ' + sCaseType);
+                    
+                    //console.log(i + ' case type: ' + sArray[i].Case__r.Type + ' - hours: ' + hour + ' - sHour__c: ' + sArray[i].Hours__c + ' - sOwnerid: ' + sArray[i].OwnerId__c +  ' - rowOwnerId: ' + userId +' - datesInRange[m]: ' + datesInRange[m].toString() + ' - sDate.toString(): ' + sDate.toString() );
+                    
+                    // check if case = thisCase, and user is correct, and dates are within range
+                    if ( thisCase === sCase && datesInRange[m].toString() === sDate.toString() && sArray[i].OwnerId__c === userId) {
+
+                        //console.log('MATCH FOUND ON --> date: ' + datesInRange[m].toString() + ' - sDate: ' + sDate.toString() + ' - sOwnerId: ' + sArray[i].OwnerId__c + ' - userId: ' + userId);
+                        if (sArray[i].Hours__c > 0) {
+
+                            hour = hour + sArray[i].Hours__c;
+                                
+                            if (hour > 6) {
+                                schedule = {Date__c: datesInRange[m], Hours__c: hour, Class:"slds-input slds-text-align--center slds-theme--error"};
+                                    console.log('sOwner: ' + sArray[i].OwnerId__c + ' - date: ' + datesInRange[m] + ' - sDATE: ' + sArray[i].Date__c + ' - HOURS: ' + sArray[i].Hours__c + ' - total: ' + hour);
+                            } else if (hour > 4) {
+                                //hour = hour + sArray[i].Hours__c;
+                                schedule = {Date__c: datesInRange[m], Hours__c: hour, Class:"slds-input slds-text-align--center slds-theme--warning"};
+                                    console.log('sOwner: ' + sArray[i].OwnerId__c + ' - date: ' + datesInRange[m] + ' - sDATE: ' + sArray[i].Date__c + ' - HOURS: ' + sArray[i].Hours__c + ' - total: ' + hour);
+                            } else if (hour > 0) {
+                                //hour = hour + sArray[i].Hours__c;
+                                schedule = {Date__c: datesInRange[m], Hours__c: hour, Class:"slds-input slds-text-align--center slds-theme--success"};
+                                    console.log('sOwner: ' + sArray[i].OwnerId__c + ' - date: ' + datesInRange[m] + ' - sDATE: ' + sArray[i].Date__c + ' - HOURS: ' + sArray[i].Hours__c + ' - total: ' + hour);
+                            } else {
+                                //hour = hour + sArray[i].Hours__c;
+                                schedule = {Date__c: datesInRange[m], Hours__c: hour, Class:"slds-input slds-text-align--center slds-theme--default"};
+                                    console.log('sOwner: ' + sArray[i].OwnerId__c + ' - date: ' + datesInRange[m] + ' - sDATE: ' + sArray[i].Date__c + ' - HOURS: ' + sArray[i].Hours__c + ' - total: ' + hour);
+                            }
+                        }
+
+                    } else {
+
+                        //console.log('NO MATCH --> date: ' + datesInRange[m].toString() + ' - sDate: ' + sDate.toString() + ' - sOwnerId: ' + sArray[i].OwnerId__c + ' - userId: ' + userId);
+
+                        //hour = 0;
+                        //console.log('RESET total hours: ' + hour + ' - NEW schedule date: ' + datesInRange[m] + '--' + sArray[i].Date__c);
+                    }
+                } // end loop through schedule__c records
+
+            }  // end loop through cases
 
             // push hours into an array
             schAry.push(schedule);
-                //console.log('sHours: ' + schedule.Hours__c + ' - sDate: ' + schedule.Date__c + ' - sOwnerId: ' + schedule.OwnerId__c);
-            //schedules.push(hour);
         }
-        //component.set("v.schedules", schedules);
+
         component.set("v.userHours", schAry);
-
-        //console.log('schedule records #: ' + schAry.length);
-
     
-    }	
+    },
+
+    // creates the user's schedules by case cmp
+    createUserCaseSchdlRow : function (component, event, userId, scheduleRcds) {
+
+
+        
+        $A.createComponent(
+            "c:CapacitySchedulesForUser",
+            {
+                "aura:id" : "cpctyUserCaseRow",
+                "startDate" : component.get("v.startDate"),
+                "daysToDisplay" : component.get("v.daysToDisplay"),
+                "userId" : userId,
+                "scheduleRcds" : scheduleRcds
+            },
+            function(newUserRow){
+                if (component.isValid()) {
+                    var body = component.get("v.body");
+                    // remove the last component created; there can be only one!
+                    //body.pop();
+                    // add the new component
+                    body.push(newUserRow);
+                    console.log("CapacitySchedulesUsers.createUserSchdlRow");
+                    component.set("v.body", body);
+                }
+            });
+    }
 })

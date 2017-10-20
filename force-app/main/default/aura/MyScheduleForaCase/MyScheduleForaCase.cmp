@@ -20,22 +20,22 @@
     
     
     <!-- this component returns a row of schedule__c data for the provided case -->
-    <div class="slds-grid slds-grid--vertical-align-center">
-    	<div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--3-of-12 scs-pointer" onclick="{!c.showMore}">
-            <div class="slds-text-align--left slds-truncate">{!v.actName}</div>
+    <div class="slds-grid slds-grid_vertical-align-center">
+    	<div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_3-of-12 scs-pointer" onclick="{!c.showMore}">
+            <div class="slds-text-align_left slds-truncate">{!v.actName}</div>
         </div>
-        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12 scs-pointer" onclick="{!c.showMore}">
-            <div class="slds-text-align--left slds-truncate">{!v.caseOpty}</div>
+        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_1-of-12 scs-pointer" onclick="{!c.showMore}">
+            <div class="slds-text-align_left slds-truncate">{!v.caseOpty}</div>
         </div>
-        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12 scs-pointer" onclick="{!c.showMore}">
-            <div class="slds-text-align--left slds-truncate">{!v.caseRqstr}</div>
+        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_1-of-12 scs-pointer" onclick="{!c.showMore}">
+            <div class="slds-text-align_left slds-truncate">{!v.caseRqstr}</div>
         </div>
-		<div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12 scs-pointer" onclick="{!c.showMore}">
-            <div class="slds-text-align--center slds-truncate">{!v.caseDaysDue}</div>
+		<div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_1-of-12 scs-pointer" onclick="{!c.showMore}">
+            <div class="slds-text-align_center slds-truncate">{!v.caseDaysDue}</div>
         </div>
         <aura:iteration var="s" items="{!v.scheduleRcds}">
-            <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
-                <div class="slds-text-align--center slds-truncate slds-align--absolute-center">
+            <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_1-of-12">
+                <div class="slds-text-align_center slds-truncate slds-align_absolute-center">
                 	<c:MyScheduleForaCaseHours recordId="{!s.Id}" 
                         caseId="{!v.caseId}" 
                         loadedHours="{!s.Hours__c}" 
@@ -48,39 +48,39 @@
 
     <!-- hidden card visible on mouseover -->
     <div class="slds-hide" aura:id="moreInfoCard">
-        <lightning:card iconName="standard:case" variant="narrow" class="scs-card slds-m-horizontal--small slds-size--1-of-1 slds-medium-size--4-of-6 slds-large-size--5-of-12">
+        <lightning:card iconName="standard:case" variant="narrow" class="scs-card slds-m-horizontal_small slds-size_1-of-1 slds-medium-size_4-of-6 slds-large-size_5-of-12">
             <aura:set attribute="title">
-                <p class="slds-p-horizontal--small" onclick="{!c.navigateTo}">
+                <p class="slds-p-horizontal_small" onclick="{!c.navigateTo}">
                     {!v.caseRqstdSvc}
                 </p>
             </aura:set>
             <aura:set attribute="body">
-                <div class="slds-grid slds-wrap slds-grid--pull-padded">
-                    <div class="slds-size--1-of-1 slds-size--1-of-6 slds-size--4-of-12 slds-text-align--right">
-                        <span class="slds-text-align--right">Case #</span>
+                <div class="slds-grid slds-wrap slds-grid_pull-padded">
+                    <div class="slds-size_1-of-1 slds-size_1-of-6 slds-size_4-of-12 slds-text-align_right">
+                        <span class="slds-text-align_right">Case #</span>
                     </div>
-                    <div class="slds-size--1-of-1 slds-size--5-of-6 slds-size--8-of-12 slds-text-align--left">
-                        <span class="slds-p-horizontal--small slds-text-align--left" onclick="{!c.navigateTo}">
+                    <div class="slds-size_1-of-1 slds-size_5-of-6 slds-size_8-of-12 slds-text-align_left">
+                        <span class="slds-p-horizontal_small slds-text-align_left" onclick="{!c.navigateTo}">
                             <a href="" onclick="{!c.navigateTo}">{!v.caseNumber}</a>
                         </span>
                     </div>
-                    <div class="slds-size--1-of-1 slds-size--1-of-6 slds-size--4-of-12 slds-text-align--right">
-                        <span class="slds-text-align--right">Due Date</span>
+                    <div class="slds-size_1-of-1 slds-size_1-of-6 slds-size_4-of-12 slds-text-align_right">
+                        <span class="slds-text-align_right">Due Date</span>
                     </div>
-                    <div class="slds-p-horizontal--small slds-size--1-of-1 slds-size--5-of-6 slds-size--8-of-12 slds-text-align--left">
-                        <span class="slds-text-align--left">{!v.caseDueDate}</span>
+                    <div class="slds-p-horizontal_small slds-size_1-of-1 slds-size_5-of-6 slds-size_8-of-12 slds-text-align_left">
+                        <span class="slds-text-align_left">{!v.caseDueDate}</span>
                     </div>
-                    <div class="slds-size--1-of-1 slds-size--1-of-6 slds-size--4-of-12 slds-text-align--right">
-                        <span class="slds-text-align--right">Opportunity Disc Sales</span>
+                    <div class="slds-size_1-of-1 slds-size_1-of-6 slds-size_4-of-12 slds-text-align_right">
+                        <span class="slds-text-align_right">Opportunity Disc Sales</span>
                     </div>
-                    <div class="slds-p-horizontal--small slds-size--1-of-1 slds-size--5-of-6 slds-size--8-of-12 slds-text-align--left">
-                        <span class="slds-text-align--left">{!v.caseOptyAmnt}</span>
+                    <div class="slds-p-horizontal_small slds-size_1-of-1 slds-size_5-of-6 slds-size_8-of-12 slds-text-align_left">
+                        <span class="slds-text-align_left">{!v.caseOptyAmnt}</span>
                     </div>
-                    <div class="slds-size--1-of-1 slds-size--1-of-6 slds-size--4-of-12 slds-text-align--right">
-                        <span class="slds-text-align--right">Account Classification</span>
+                    <div class="slds-size_1-of-1 slds-size_1-of-6 slds-size_4-of-12 slds-text-align_right">
+                        <span class="slds-text-align_right">Account Classification</span>
                     </div>
-                    <div class="slds-p-horizontal--small slds-size--1-of-1 slds-size--5-of-6 slds-size--8-of-12 slds-text-align--left">
-                        <span class="slds-text-align--left">{!v.caseActCls}</span>
+                    <div class="slds-p-horizontal_small slds-size_1-of-1 slds-size_5-of-6 slds-size_8-of-12 slds-text-align_left">
+                        <span class="slds-text-align_left">{!v.caseActCls}</span>
                     </div>
                 </div>
             </aura:set>
