@@ -77,6 +77,7 @@ public with sharing class ScheduleController {
                                WHERE Date__c >= :beginDate
                                And Date__c <= :endDate
                                //AND Case__r.Administrative_for_CM__c != true
+                               ORDER BY OwnerId__c
                                ];
         system.debug('getUserSchedules #: ' + schedules.size());
 

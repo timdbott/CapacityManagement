@@ -72,7 +72,7 @@
     },
 
     // take the user's total schedules and summarize by case
-    sumSchedulesByCase : function(component, event) {
+    findUserCaseSchedules : function(component, event) {
         
         var userId = component.get("v.userId"),
         	startDate = component.get("v.startDate"),
@@ -83,14 +83,55 @@
             schAry = [],
             sCases = [],
             uniqueCases = [],
-        	thisCase, schedule, date, hour, i, j, m, o, y, z;
+        	thisCase, thisCaseId, caseId, schedule, date, hour, i, j, m, n, y, z;
 
         //console.log('initializing CapacitySchedulesForUser.sumSchedulesByCase...from ' + event.getSource() + ' - startDate: ' + startDate);
         
+    //  **********   Find schedules and cases
+
         // get schedules array of objects
         sArray = component.get("v.scheduleRcds");
+        
+        console.log('CapacitySchedulesForUser.sumSchedulesByCase.sArray.length: ' + sArray.length);
 
-        //console.log('CapacitySchedulesForUser.sumSchedulesByCase.sArray.length: ' + sArray.length);
+        // loop through schedule__c records to find the unique cases
+        for (i = 0, j = sArray.length; i < j; i = i + 1) {
+            
+            caseId = sArray[i].Case__c;
+            console.log('CapacitySchedulesForUser.sArray[i].Case__c: ' + sArray[i].Case__c );
+            sCases.push(caseId);
+        }
+
+        // find the unique CaseId values
+        let casesSet = [...new Set(sCases)];
+        uniqueCases = [...casesSet];
+
+        // loop through uniqueCases and then schedules to find all the schedules for this caseId
+        if (uniqueCases.length > 0) {
+            for (i = 0, j = uniqueCases.length; i < j; i = i + 1) {
+                thisCaseId = uniqueCases[i];
+                schAry = [];
+                // loop through schedules
+                for (m = 0, n = sArray.length; m < n; m = m + 1) {
+                    if (thisCaseId === sArray[m].Case__c) {
+                        // push schedules into an array
+                        schAry.push(sArray);
+                    }
+                }
+
+                // create user/case schedules row
+                this.createUserCaseSchdlRow(component, event, userId, thisCaseId, schAry)
+            }
+        } else {
+            console.log('CapacitySchedulesForUser - no cases for this user and date range');
+        }
+
+    //  should this simply add the schedule records for each case into an array and create CapacitySchedulesForUserByCase.cmp ??
+    //  or should this create the schedule{} objects, put them into array and create CapacitySchedulesForUserByCase.cmp  ??
+
+
+
+    //  **********   Create hours for the cases and schedules
 
         // loop through days in week
         for (m = 0, o = datesInRange.length; m < o; m = m + 1) {
@@ -108,17 +149,13 @@
             // set default schedule object
             schedule = {Date__c: datesInRange[m], Hours__c: hour, Class:"slds-input slds-text-align--center slds-theme--default"};
 
-            // loop through schedule__c records to find the unique cases
-            for (i = 0, j = sArray.length; i < j; i = i + 1) {
+            
 
-                var caseId = sArray[i].Case__c;
-                sCases.push(caseId);
-
-                // convert unique Set of team members into an array and assign it to the component variable for iteration
-                uniqueCases = [...sCases];
-            }
-
+        if (uniqueCases.length > 3) {
+            console.log('uniqueCases > 3');
+        } else {
             // loop through cases
+            /*
             for (y = 0, z = uniqueCases.length; y < z; i = i + 1) {
                 var thisCase = uniqueCases[y];
 
@@ -169,17 +206,18 @@
                 } // end loop through schedule__c records
 
             }  // end loop through cases
-
+        */
+        }
             // push hours into an array
-            schAry.push(schedule);
+            //schAry.push(schedule);
         }
 
-        component.set("v.userHours", schAry);
+        //component.set("v.userHours", schAry);
     
     },
 
     // creates the user's schedules by case cmp
-    createUserCaseSchdlRow : function (component, event, userId, scheduleRcds) {
+    createUserCaseSchdlRow : function (component, event, userId, caseId, scheduleRcds) {
 
 
         
@@ -190,6 +228,7 @@
                 "startDate" : component.get("v.startDate"),
                 "daysToDisplay" : component.get("v.daysToDisplay"),
                 "userId" : userId,
+                "caseId" : caseId,
                 "scheduleRcds" : scheduleRcds
             },
             function(newUserRow){

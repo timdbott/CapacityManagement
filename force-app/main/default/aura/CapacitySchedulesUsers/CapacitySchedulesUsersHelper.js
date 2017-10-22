@@ -100,22 +100,33 @@
                 //console.log('CapacityScheduleUsers.getUserSchedules query state: ' + state);
                 var teamMembers = component.get("v.teamMembers"),
                     sArray = [],
-                	schedules = [],
-                	schAry = [],
+                    schAry = [],
                 	schedule, errSchedule, totalDateHours, date, hour, i, j, m, o, p, r, calDate, fDate, y, m, d;
                 //console.log('CapacityScheduleUsers.getSchedules.sArray length: ' + sArray.length);
                 //console.log('CapacityScheduleUsers.getSchedules.teamMembers length: ' + teamMembers.length);
 
                 sArray = response.getReturnValue();
-
+                
+                // sets scheduleRcds with all schedules for all users for this date range
                 component.set("v.scheduleRcds", sArray);
 
-                // for each team member, create their total schedules row
+                // loop through team members and create schedule array just for them
                 for (i = 0, j = teamMembers.length; i < j; i=i+1) {
-                    var user = teamMembers[i];
-                    var userId = teamMembers[i].Id;
+                    var user = teamMembers[i],
+                        userId = teamMembers[i].Id,
+                        schedules = [];
 
-                    this.createUserSchdlRow(component, event,user, userId);
+                    // loop through schedule records to create schedule array just for them
+                    for (p = 0, r = sArray.length; p < r; p = p + 1) {
+                        if ( sArray[p].OwnerId__c === userId && sArray[p].Hours__c > 0) {
+                            console.log('CapacitySchedulesUsers.sArray[p].OwnerId__c: ' + sArray[p].OwnerId__c);
+                            console.log('CapacitySchedulesUsers.sArray[p].Hours__c: ' + sArray[p].Hours__c);
+                            schedules.push(sArray[p]);
+                        } 
+                    }
+                    console.log("CapacitySchedulesUsers.getSchedules -> createUserSchdlRow");
+                    // for each team member, create their total schedules row
+                    this.createUserSchdlRow(component, event, schedules, user, userId);
                 }
 
                 
@@ -154,11 +165,12 @@
         // Send action off to be executed
         $A.enqueueAction(action);
     
-    
     },
 
     // creates the user's schedules row component, which also generates schedules by case cmp
-    createUserSchdlRow : function (component, event, user, userId) {
+    createUserSchdlRow : function (component, event, schedules, user, userId) {
+
+        console.log("CapacitySchedulesUsers.createUserSchdlRow");
 
         $A.createComponent(
             "c:CapacitySchedulesForUser",
@@ -168,16 +180,15 @@
                 "daysToDisplay" : component.get("v.daysToDisplay"),
                 "user" : user,
                 "userId" : userId,
-                "scheduleRcds" : component.get("v.scheduleRcds")
+                "scheduleRcds" : schedules
             },
             function(newUserRow){
                 if (component.isValid()) {
                     var body = component.get("v.body");
                     // remove the last component created; there can be only one!
-                    //body.pop();
+                    body.pop();
                     // add the new component
                     body.push(newUserRow);
-                    console.log("CapacitySchedulesUsers.createUserSchdlRow");
                     component.set("v.body", body);
                 }
             });

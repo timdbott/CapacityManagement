@@ -30,13 +30,13 @@
     </div>
 
     {!v.body}
-
+<!--
             <c:CapacitySchedulesUsersHrs userId="{!v.userId}"
                 startDate="{!v.startDate}" 
                 daysToDisplay="{!v.daysToDisplay}"
                 scheduleRcds="{!v.scheduleRcds}"
             />
-        
+-->
         
 
 </aura:component>

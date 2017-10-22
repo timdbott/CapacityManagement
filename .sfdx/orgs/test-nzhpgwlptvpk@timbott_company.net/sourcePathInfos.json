@@ -585,15 +585,15 @@
     [
         "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUser.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUser.cmp",
             "isDirectory": false,
+            "size": 1481,
+            "modifiedTime": 1508511947000,
+            "changeTime": 1508511947000,
+            "contentHash": "c3df454384928de0dda3bd44148bd5f1b5f78b6a",
             "isMetadataFile": false,
-            "size": 1482,
-            "modifiedTime": 1508507994000,
-            "changeTime": 1508507994000,
-            "isWorkspace": false,
-            "contentHash": "bbb7f8975f9103d4f2bcb7009ce1059de86b3243"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -631,10 +631,10 @@
         {
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUserController.js",
             "isDirectory": false,
-            "size": 628,
-            "modifiedTime": 1508432210000,
-            "changeTime": 1508432210000,
-            "contentHash": "16c5f31d81236d4428035ae054dc5c08ab7a002c",
+            "size": 602,
+            "modifiedTime": 1508523777000,
+            "changeTime": 1508523777000,
+            "contentHash": "5fd0b6e07dad149877625a6c4eafbc9c8fe555c6",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -647,11 +647,11 @@
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUserHelper.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 9552,
-            "modifiedTime": 1508509696000,
-            "changeTime": 1508509696000,
+            "size": 10201,
+            "modifiedTime": 1508581940000,
+            "changeTime": 1508581940000,
             "isWorkspace": false,
-            "contentHash": "361de5fe0bbff4bdaf29a1701a687dac703c3495"
+            "contentHash": "8c9a44ff8c5daabcc5ce9fcba3363d393e58db9b"
         }
     ],
     [
@@ -897,10 +897,10 @@
         {
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesUsers/CapacitySchedulesUsersHelper.js",
             "isDirectory": false,
-            "size": 7288,
-            "modifiedTime": 1508505860000,
-            "changeTime": 1508505860000,
-            "contentHash": "cf14692266c9db776232d8cd4ea539c6a3e52537",
+            "size": 8149,
+            "modifiedTime": 1508518473000,
+            "changeTime": 1508518473000,
+            "contentHash": "da364f2cf7a061199b0269ba953de8d7cec884ec",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -1972,15 +1972,15 @@
     [
         "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCase.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCase/MyScheduleForaCase.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 5607,
             "modifiedTime": 1508509716000,
             "changeTime": 1508509716000,
-            "isWorkspace": false,
-            "contentHash": "b6a5f6a12bf5c2af38b478b47f1648ca7c35dac7"
+            "contentHash": "b6a5f6a12bf5c2af38b478b47f1648ca7c35dac7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -2061,15 +2061,15 @@
     [
         "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours/MyScheduleForaCaseHours.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleForaCaseHours/MyScheduleForaCaseHours.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3259,
             "modifiedTime": 1508509723000,
             "changeTime": 1508509723000,
-            "isWorkspace": false,
-            "contentHash": "65aefcb7ff04b8d300edc68ff4ac95df564d44c1"
+            "contentHash": "65aefcb7ff04b8d300edc68ff4ac95df564d44c1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -2210,15 +2210,15 @@
     [
         "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases/MyScheduleOwnedCases.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/MyScheduleOwnedCases/MyScheduleOwnedCases.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2844,
             "modifiedTime": 1508509729000,
             "changeTime": 1508509729000,
-            "isWorkspace": false,
-            "contentHash": "527123dbca2766e8cf50375011b1507f147e20ce"
+            "contentHash": "527123dbca2766e8cf50375011b1507f147e20ce",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -2526,14 +2526,13 @@
         {
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/classes/ScheduleController.cls",
             "isDirectory": false,
-            "size": 24107,
-            "modifiedTime": 1508168106000,
-            "changeTime": 1508168106000,
-            "contentHash": "ee5a7a1425fea0613852c991ae198a6e9a9b154a",
+            "size": 24158,
+            "modifiedTime": 1508514489000,
+            "changeTime": 1508514489000,
+            "contentHash": "657d6063bc7a813bb4374d39a11f35bb69b6ac27",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [

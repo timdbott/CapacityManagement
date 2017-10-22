@@ -6,6 +6,7 @@
     <aura:attribute name="daysToDisplay" type="Integer"/>
     <aura:attribute name="user" type="User"/>
     <aura:attribute name="userId" type="String"/>
+    <aura:attribute name="caseId" type="String"/>
     <aura:attribute name="scheduleRcds" type="Schedule__c[]"/>
     <aura:attribute name="showUserSchedules" type="Boolean" default="false"/>
     <aura:attribute name="userHours" type="Schedule__c[]"/>
@@ -23,7 +24,7 @@
             <!--  this is where the user's name needs to open the user's schedule....someplace on the screen  -->
 
             <div class="slds-truncate slds-text-align_right">
-                <span onclick="{!c.toggleUserSchedules}">{!v.caseType}</span>
+                <span onclick="{!c.toggleUserSchedules}">{!v.caseId}</span>
             </div>
 
         </div>
