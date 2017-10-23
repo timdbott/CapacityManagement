@@ -6,13 +6,18 @@
     <aura:attribute name="daysToDisplay" type="Integer"/>
     <aura:attribute name="user" type="User"/>
     <aura:attribute name="userId" type="String"/>
-    <aura:attribute name="caseId" type="String"/>
     <aura:attribute name="scheduleRcds" type="Schedule__c[]"/>
     <aura:attribute name="showUserSchedules" type="Boolean" default="false"/>
     <aura:attribute name="userHours" type="Schedule__c[]"/>
 
     <aura:attribute name="caseId" type="String"/>
     <aura:attribute name="caseType" type="String"/>
+    <aura:attribute name="actName" type="String"/>
+    <aura:attribute name="actClass" type="String"/>
+    <aura:attribute name="optyName" type="String"/>
+    <aura:attribute name="optyAmnt" type="Decimal"/>
+    <aura:attribute name="dueDate" type="Date"/>
+    <aura:attribute name="rqstBy" type="String"/>
 
     <!--  EVENTS -->
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
@@ -21,10 +26,8 @@
     <div class="slds-grid slds-p-vertical_xx-small slds-align_left">
         <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_2-of-12" style="max-width:10.0rem;min-width:10.0rem">
                 
-            <!--  this is where the user's name needs to open the user's schedule....someplace on the screen  -->
-
             <div class="slds-truncate slds-text-align_right">
-                <span onclick="{!c.toggleUserSchedules}">{!v.caseId}</span>
+                <span class="slds-text-title_caps" onclick="{!c.createTileCmp}">{!v.caseType}</span>
             </div>
 
         </div>
@@ -32,7 +35,9 @@
         <c:CapacitySchedulesUsersHrs userId="{!v.userId}"
             startDate="{!v.startDate}" 
             daysToDisplay="{!v.daysToDisplay}"
-            scheduleRcds="{!v.userHours}"
+            scheduleRcds="{!v.scheduleRcds}"
         />
     </div>
+
+    <lightning:overlayLibrary aura:id="overlayLib"/>
 </aura:component>	

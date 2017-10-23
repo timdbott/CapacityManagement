@@ -3366,10 +3366,10 @@
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesCaseInfo/CapacitySchedulesCaseInfo.cmp",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 2635,
-            "modifiedTime": 1508787524000,
-            "changeTime": 1508787524000,
-            "contentHash": "529428c6ec9183a4450ba772827321bd79ccd6c9"
+            "size": 1913,
+            "modifiedTime": 1508787163000,
+            "changeTime": 1508787163000,
+            "contentHash": "5c9a521ba5febe2b93c8087a9404c2fde723dae8"
         }
     ],
     [

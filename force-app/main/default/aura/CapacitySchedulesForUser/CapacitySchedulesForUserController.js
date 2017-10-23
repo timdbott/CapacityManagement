@@ -9,10 +9,17 @@
 
     toggleUserSchedules : function(component, event, helper) {
         
-        var userId = component.get("v.userId");
-                
-        // build user's case/schedule rows
-        console.log("// build user's case/schedule rows");
-        helper.findUserCaseSchedules(component, event);
+        var userId = component.get("v.userId"),
+            showCaseRows = component.get("v.showCaseRows");
+
+        if (showCaseRows) {
+            component.set("v.body",[]);
+            component.set("v.showCaseRows",false);
+        } else {
+            component.set("v.showCaseRows",true);
+            // build user's case/schedule rows
+            console.log("// build user's case/schedule rows");
+            helper.findUserCaseSchedules(component, event, helper);
+        }
     }
 })

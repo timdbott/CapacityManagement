@@ -1,0 +1,61 @@
+<aura:component>
+
+    <aura:attribute name="layout" type="String"/>
+    <aura:attribute name="fields" type="String[]"/>
+    <aura:attribute name="record" type="Object"/>
+
+    <aura:attribute name="caseId" type="String"/>
+    <aura:attribute name="caseType" type="String"/>
+    <aura:attribute name="actName" type="String"/>
+    <aura:attribute name="actClass" type="String"/>
+    <aura:attribute name="optyName" type="String"/>
+    <aura:attribute name="optyAmnt" type="Decimal"/>
+    <aura:attribute name="dueDate" type="Date"/>
+    <aura:attribute name="rqstBy" type="String"/>
+
+    <!--  EVENTS -->
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+
+    
+    <lightning:tile label="{!'Account Name: ' + v.actName}">
+        
+        <dl class="slds-dl_horizontal">
+            <dt class="slds-dl_horizontal__label">
+                <p class="slds-truncate" title="Account">
+                    <lightning:icon iconName="standard:account" size="small"/>
+                    Account Name:
+                </p>
+            </dt>
+            <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                <p class="slds-truncate" title="{!v.actName}">{!v.actName}</p>
+            </dd>
+
+            <dt class="slds-dl_horizontal__label">
+                <p class="slds-truncate" title="Classification">Account Classification:</p>
+            </dt>
+            <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                <p class="slds-truncate" title="{!v.actClass}">{!v.actClass}</p>
+            </dd>
+
+            <dt class="slds-dl_horizontal__label">
+                <p class="slds-truncate" title="Opportunity">Opportunity:</p>
+            </dt>
+            <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                <p class="slds-truncate" title="{!v.optyName}">{!v.optyName}</p>
+            </dd>
+        </dl>
+    </lightning:tile>
+
+    <lightning:recordViewForm recordId="{!v.caseId}" objectApiName="Case">
+            <div class="slds-box slds-theme_default">
+                <lightning:outputField fieldName="Type" />
+                <lightning:outputField fieldName="Requested_Completion_Date__c" />
+                <lightning:outputField fieldName="Service_Requested_By_Name__c" />
+                <lightning:outputField fieldName="Account_Name_Text__c" />
+                <lightning:outputField fieldName="Account_Classification__c"/>
+                <lightning:outputField fieldName="Opportunity_Name__c" />
+                <lightning:outputField fieldName="Opportunity_Est_Disc_Sales__c" />
+            </div>
+        </lightning:recordViewForm>
+
+</aura:component>	
