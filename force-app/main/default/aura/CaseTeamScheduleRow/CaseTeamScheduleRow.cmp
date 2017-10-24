@@ -9,8 +9,8 @@
     <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
 
     <!-- Team member name -->
-    <div class="slds-float_left slds-p-left--xx-small slds-p-right--x-small" style="max-width:10.0rem;min-width:10.0rem">
-        <span class="slds-text-heading_small slds--text-align_left">
+    <div class="slds-float_left slds-p-left_xx-small slds-p-right_x-small" style="max-width:10.0rem;min-width:10.0rem">
+        <span class="slds-text-heading_small slds_text-align_left">
             <ui:outputText value="{!v.teamMember}"/>
         </span>
     </div>
@@ -18,13 +18,13 @@
     <!-- Hours row -->
     <lightning:layout horizontalAlign="space">
         <aura:iteration var="s" items="{!v.scheduleRcdsForTM}">
-            <lightning:layoutItem flexibility="auto" class="slds-m-right--xx-small">
+            <lightning:layoutItem flexibility="auto" class="slds-m-right_xx-small">
                 
                 <!-- hours output field -->
-                <div class="slds-text-align--center slds-truncate slds-align--absolute-center">
-                    <div class="slds-text-align--center">
-                        <div class="slds-form-element__control slds-p-around--xx-small">
-                            <ui:outputNumber class="slds-text-heading--small slds-p-around--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12 slds-text-align--center" 
+                <div class="slds-text-align_center slds-truncate slds-align_absolute-center">
+                    <div class="slds-text-align_center">
+                        <div class="slds-form-element__control slds-p-around_xx-small">
+                            <ui:outputNumber class="slds-text-heading_small slds-p-around_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_1-of-12 slds-text-align_center" 
                                 format="0.00" 
                                 value="{!s.Hours__c}"/>
                         </div>

@@ -16,52 +16,52 @@
     			action="{!c.hideCmp}"
     			includeFacets="true"/>
 
-    <div class="slds-m-top--small slds-m-bottom--small slds-p-bottom--small slds-border--bottom" aura:id="caseRow">
+    <div class="slds-m-top_small slds-m-bottom_small slds-p-bottom_small slds-border_bottom" aura:id="caseRow">
     	<div class="">
-        	<div class="slds-grid slds-wrap slds-p-bottom--small scs-pointer slds-grid--vertical-align-center slds-p-horizontal--small" onclick="{!c.showMore}">
-	        	<div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12">
-	        		<div class="slds-text-align--left slds-truncate">{!v.actName}</div>
+        	<div class="slds-grid slds-wrap slds-p-bottom_small scs-pointer slds-grid_vertical-align-center slds-p-horizontal_small" onclick="{!c.showMore}">
+	        	<div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_2-of-12">
+	        		<div class="slds-text-align_left slds-truncate">{!v.actName}</div>
 		        </div>
-		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12">
-	        		<div class="slds-text-align--left slds-truncate">{!v.oppName}</div>
+		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_2-of-12">
+	        		<div class="slds-text-align_left slds-truncate">{!v.oppName}</div>
 		        </div>
-		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12">
-	        		<div class="slds-text-align--left slds-truncate">{!v.caseRqstBy}</div>
+		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_2-of-12">
+	        		<div class="slds-text-align_left slds-truncate">{!v.caseRqstBy}</div>
 		        </div>
-		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12">
-	        		<div class="slds-text-align--left slds-truncate">{!v.caseDays}</div>
+		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_2-of-12">
+	        		<div class="slds-text-align_left slds-truncate">{!v.caseDays}</div>
 		        </div>
-		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12">
-	        		<div class="slds-text-align--left slds-truncate">{!v.actCls}</div>
+		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_2-of-12">
+	        		<div class="slds-text-align_left slds-truncate">{!v.actCls}</div>
 		        </div>
-		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12">
-	        		<div class="slds-text-align--left slds-truncate"></div>
+		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_2-of-12">
+	        		<div class="slds-text-align_left slds-truncate"></div>
 		        </div>
-		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12">
-	        		<div class="slds-text-align--left slds-truncate">{!v.oppAmount}</div>
+		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_2-of-12">
+	        		<div class="slds-text-align_left slds-truncate">{!v.oppAmount}</div>
 		        </div>
-		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12">
-	        		<div class="slds-text-align--left slds-truncate">{!v.caseRqstType}</div>
+		        <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_2-of-12">
+	        		<div class="slds-text-align_left slds-truncate">{!v.caseRqstType}</div>
 		        </div>
 		    </div>
 		</div>
 			    <!-- hidden more information card -->
 
-		<div class="slds-grid--vertical-align-center slds-hide" aura:id="moreInfo">
+		<div class="slds-grid_vertical-align-center slds-hide" aura:id="moreInfo">
 
 			<div>
         		<lightning:spinner aura:id="caseSpinner" class="slds-show" variant="brand" size="large" alternativeText="spinner"/>
         	</div>
 
-			<div class="slds-grid slds-wrap slds-grid--pull-padded">
+			<div class="slds-grid slds-wrap slds-grid_pull-padded">
 
-			    <div class="slds-m-horizontal--xx-small slds-size--1-of-1 slds-medium-size--3-of-6 slds-large-size--6-of-12 slds-box slds-theme--shade slds-hide" aura:id="moreInfoCard">
+			    <div class="slds-m-horizontal_xx-small slds-size_1-of-1 slds-medium-size_3-of-6 slds-large-size_6-of-12 slds-box slds-theme_shade slds-hide" aura:id="moreInfoCard">
 
-                    <div class="slds-text-heading--medium slds-m-bottom--xx-small">Previous Cases</div>
+                    <div class="slds-text-heading_medium slds-m-bottom_xx-small">Previous Cases</div>
                     
-		            <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-no-row-hover" aura:id="pastCasesTable">
+		            <table class="slds-table slds-table_bordered slds-table_cell-buffer slds-no-row-hover" aura:id="pastCasesTable">
 						<thead>
-							<tr class="slds-text-title--caps">
+							<tr class="slds-text-title_caps">
 								<th scope="col">
 									<div class="slds-truncate" title="action"></div>
 								</th>
@@ -98,18 +98,18 @@
 				</div>
 
 					<!-- no cases message -->
-				<div class="slds-m-horizontal--xx-small slds-size--1-of-1 slds-medium-size--2-of-6 slds-large-size--4-of-12 slds-box slds-theme--shade slds-hide" aura:id="noCasesToast">
+				<div class="slds-m-horizontal_xx-small slds-size_1-of-1 slds-medium-size_2-of-6 slds-large-size_4-of-12 slds-box slds-theme_shade slds-hide" aura:id="noCasesToast">
 					
-                    <div class="slds-text-heading--medium slds-m-bottom--xx-small">Previous Cases</div>
-                    <div class="slds-box slds-theme--info" >
+                    <div class="slds-text-heading_medium slds-m-bottom_xx-small">Previous Cases</div>
+                    <div class="slds-box slds-theme_info" >
 						
 							<h2>No previous cases for this account</h2>
 					</div>
 			    </div>
 
-			    <div class="slds-m-horizontal--xx-small slds-size--1-of-1 slds-medium-size--2-of-6 slds-large-size--4-of-12 slds-box slds-theme--shade" aura:id="findPersonCard">
+			    <div class="slds-m-horizontal_xx-small slds-size_1-of-1 slds-medium-size_2-of-6 slds-large-size_4-of-12 slds-box slds-theme_shade" aura:id="findPersonCard">
 					
-                    <div class="slds-text-heading--medium slds-p-bottom--xx-small slds-m-bottom--xx-small slds-border--bottom">Search for new owner</div>
+                    <div class="slds-text-heading_medium slds-p-bottom_xx-small slds-m-bottom_xx-small slds-border_bottom">Search for new owner</div>
                     
 					<c:CapacityManagementCasesUserLookup caseId="{!v.caseId}"/>
 			    </div>

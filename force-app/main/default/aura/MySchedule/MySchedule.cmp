@@ -22,13 +22,13 @@
     <aura:attribute name="errorMsg" type="String" default=""/>
     
     <div class="slds-card">
-    <div class="slds-text-heading--large slds-align--absolute-center slds-m-bottom--large slds-border--bottom">My Schedule</div>
-        <div class="slds-grid slds-m-top--small slds-p-bottom--small slds-border--bottom">
-            <div class="slds-size--3-of-12 slds-align--absolute-center">
+    <div class="slds-text-heading_large slds-align_absolute-center slds-m-bottom_large slds-border_bottom">My Schedule</div>
+        <div class="slds-grid slds-m-top_small slds-p-bottom_small slds-border_bottom">
+            <div class="slds-size_3-of-12 slds-align_absolute-center">
                 <span>
                 	<lightning:buttonIcon aura:id="btn_prevWk" iconName="utility:chevronleft" onclick="{!c.changeDate}" alternativeText="previous week" />
                 </span>
-                <span class="slds-text-title slds-p-left--xx-small slds-p-right--xx-small">
+                <span class="slds-text-title slds-p-left_xx-small slds-p-right_xx-small">
                 	{!v.formattedDateHeader}
                 </span>
                 <span>
@@ -37,48 +37,48 @@
             </div>
         </div>
         
-        <div class="slds-m-top--small slds-m-bottom--small"  style="width: 95%;">
+        <div class="slds-m-top_small slds-m-bottom_small"  style="width: 95%;">
             <c:MyScheduleTotalsHeader header="My Schedule" startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
         </div>
             
         <!-- this component returns a row of schedule__c data for the provided case -->
-        <div class="slds-grid slds-m-top--small slds-p-bottom--small" style="width: 95%;">
-            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--2-of-12">
-                <div class="slds-text-align--center slds-align--absolute-center slds-text-heading--medium"></div>
+        <div class="slds-grid slds-m-top_small slds-p-bottom_small" style="width: 95%;">
+            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_2-of-12">
+                <div class="slds-text-align_center slds-align_absolute-center slds-text-heading_medium"></div>
             </div>
-            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
-                <div class="slds-text-align--center slds-truncate slds-align--absolute-center"></div>
+            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_1-of-12">
+                <div class="slds-text-align_center slds-truncate slds-align_absolute-center"></div>
             </div>
-            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
-                <div class="slds-text-align--center slds-truncate slds-align--absolute-center"></div>
+            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_1-of-12">
+                <div class="slds-text-align_center slds-truncate slds-align_absolute-center"></div>
             </div>
-            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
-                <div class="slds-text-align--center slds-truncate slds-align--absolute-center"></div>
+            <div style="max-width:10.0rem;min-width:10.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_1-of-12">
+                <div class="slds-text-align_center slds-truncate slds-align_absolute-center"></div>
             </div>
             <aura:iteration var="s" items="{!v.scheduleRcds}">
-                <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
-                    <div class="slds-text-align--center slds-truncate slds-align--absolute-center">
+                <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_1-of-12">
+                    <div class="slds-text-align_center slds-truncate slds-align_absolute-center">
                         <c:MyScheduleTotals loadedHours="{!s.Hours__c}" dateForHours="{!s.Date__c}"/>
                     </div>
                 </div>
             </aura:iteration>
         </div>
-        <div class="slds-border--bottom"></div>
+        <div class="slds-border_bottom"></div>
 
         <div style="width: 95%;">
             <c:MyScheduleOwnedCases startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
         </div>
-        <div class="slds-border--bottom"></div>
+        <div class="slds-border_bottom"></div>
         
         <div style="width: 95%;">
         	<c:MyScheduleUnownedCases startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
 		</div>
-        <div class="slds-border--bottom"></div>
+        <div class="slds-border_bottom"></div>
     
         <div style="width: 95%;">
             <c:MyScheduleAdminCases startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
         </div>
-		<div class="slds-border--bottom"></div>
+		<div class="slds-border_bottom"></div>
         
         </div>
     

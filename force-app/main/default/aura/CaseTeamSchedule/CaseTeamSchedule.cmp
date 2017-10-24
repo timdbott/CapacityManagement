@@ -9,7 +9,7 @@
     <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
     
     <!--  DATE ROWS  -->
-    <div class="slds-m-top--small slds-m-bottom--large">
+    <div class="slds-m-top_small slds-m-bottom_large">
         <c:CaseScheduleTotalsHeader header="Team's Hours" 
           startDate="{!v.startDate}" 
           daysToDisplay="{!v.daysToDisplay}"
@@ -22,7 +22,7 @@
     <!-- this component returns a row of schedule__c data for the provided case -->
     <aura:renderIf isTrue="{!v.hasScheduleRcds}">
         <aura:iteration var="t" items="{!v.teamMembers}">
-            <div class="slds-m-top--small slds-p-bottom--large">
+            <div class="slds-m-top_small slds-p-bottom_large">
 
                 <c:CaseTeamScheduleRow teamMember="{!t}" 
                     scheduleRcds="{!v.scheduleRcds}" 

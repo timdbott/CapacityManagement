@@ -20,7 +20,7 @@
             component.set("v.isYellow", true);
             component.set("v.isGreen", false);
             component.set("v.isWhite", false);
-        } else if (loadedHrs <= 4 && loadedHrs != 0) {
+        } else if (loadedHrs <= 4 && loadedHrs !== 0) {
             component.set("v.isRed", false);
             component.set("v.isYellow", false);
             component.set("v.isGreen", true);

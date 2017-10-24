@@ -19,11 +19,11 @@
     <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
 
     <!-- this component returns a row of schedule__c data for the provided case -->
-    <div class="slds-m-top--small slds-m-bottom--small slds-border--bottom">
-        <div class="slds-m-top--small slds-m-bottom--small">
+    <div class="slds-m-top_small slds-m-bottom_small slds-border_bottom">
+        <div class="slds-m-top_small slds-m-bottom_small">
             <lightning:layout horizontalAlign="space">
                 <aura:iteration var="s" items="{!v.scheduleRcds}">
-                    <lightning:layoutItem flexibility="auto" class="slds-m-right--xx-small">
+                    <lightning:layoutItem flexibility="auto" class="slds-m-right_xx-small">
                         <c:MyScheduleForaCaseHours recordId="{!s.Id}" 
                                 caseId="{!v.caseId}" 
                                 loadedHours="{!s.Hours__c}" 

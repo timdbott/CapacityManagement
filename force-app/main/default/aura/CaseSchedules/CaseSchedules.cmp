@@ -28,15 +28,15 @@
 
 
     <!-- PAGE HEADER  -->
-    <div class="slds-text-heading--large slds-align--absolute-center slds-m-bottom--large slds-border--bottom">Schedules for this request</div>
+    <div class="slds-text-heading_large slds-align_absolute-center slds-m-bottom_large slds-border_bottom">Schedules for this request</div>
         
     <!--  DATE PICKER  -->
-    <div class="slds-grid slds-m-top--small slds-p-bottom--small slds-border--bottom">
-        <div class="slds-size--3-of-12 slds-align--absolute-center">
+    <div class="slds-grid slds-m-top_small slds-p-bottom_small slds-border_bottom">
+        <div class="slds-size_3-of-12 slds-align_absolute-center">
             <span>
                 <lightning:buttonIcon aura:id="btn_prevWk" iconName="utility:chevronleft" onclick="{!c.changeDate}" alternativeText="previous week" />
             </span>
-            <span class="slds-text-title slds-p-left--xx-small slds-p-right--xx-small">
+            <span class="slds-text-title slds-p-left_xx-small slds-p-right_xx-small">
                 {!v.formattedDateHeader}
             </span>
             <span>
@@ -46,7 +46,7 @@
     </div>
     
     <!--  MY SCHEDULE totals header row  -->
-    <div class="slds-m-top--small slds-m-bottom--small slds-p-bottom--small slds-border_bottom">
+    <div class="slds-m-top_small slds-m-bottom_small slds-p-bottom_small slds-border_bottom">
         <c:CaseScheduleTotalsHeader header="My Totals" startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}" scheduleRcds="{!v.scheduleRcds}"/>
     </div>
         
@@ -54,7 +54,7 @@
     <c:CaseMySchedule recordId="{!v.recordId}" startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
 
     <!--  MY SCHEDULE hours for others working on this case  -->
-    <div class="slds-m-top--small slds-m-bottom--small slds-p-bottom--small slds-border_bottom">
+    <div class="slds-m-top_small slds-m-bottom_small slds-p-bottom_small slds-border_bottom">
         <c:CaseTeamSchedule recordId="{!v.recordId}" startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
     </div>
 

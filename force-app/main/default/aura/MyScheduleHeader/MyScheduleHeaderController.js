@@ -64,7 +64,7 @@
 
         console.log('show Closed Cases was: ' + showClosedCases);
 
-        if (showClosedCases == false) {
+        if (showClosedCases === false) {
             component.set("v.showClosedCases",true);
             component.set("v.showClosedCasesLabel","Hide Closed Cases");
 

@@ -12,12 +12,12 @@
     <aura:handler name="change" action="{!c.selectRqstType}" value="{!v.selectedRqstType}"/>
     
     <div class="slds-card">
-        <div class="slds-grid slds-m-top--xx-small">
+        <div class="slds-grid slds-m-top_xx-small">
             <div class="slds-col">
-                <div class="slds-box slds-box--small slds-theme--shade slds-text-align--center">
+                <div class="slds-box slds-box_small slds-theme_shade slds-text-align_center">
                     <!-- Case Request Type picklist -->
-                    <div class="slds-form--horizontal slds-text-align--center">
-                        <div class="slds-picklist slds-dropdown-trigger slds-dropdown-trigger--click">
+                    <div class="slds-form_horizontal slds-text-align_center">
+                        <div class="slds-picklist slds-dropdown-trigger slds-dropdown-trigger_click">
                             <lightning:select name="caseRqstType" label="Request Type  " aura:id="caseRqstType" value="{!v.selectedRqstType}">
                                 <option text="All" value="All"/>
                                 <aura:iteration var="t" items="{!v.caseRqstTypes}">
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div class="slds-grid slds-m-top--xx-small">
+        <div class="slds-grid slds-m-top_xx-small">
             <div class="slds-col">
 
                 <c:CapacityManagementCases caseRqstType="{!v.selectedRqstType}"
@@ -40,7 +40,7 @@
         </div>
 
 		<!-- show all srn users and schedules for current user's geo  -->
-        <div class="slds-grid slds-m-top--xx-small">
+        <div class="slds-grid slds-m-top_xx-small">
             <div class="slds-col">
                 <c:CapacitySchedules />
             </div>

@@ -9,7 +9,7 @@
     var showClosedCases = event.getParam("showClosedCases");
     console.log('MyScheduleOwnedCases.toggleClosedCases showClosedCases? ' + showClosedCases);
         
-        if (showClosedCases != null || showClosedCases != 'undefined') {
+        if (showClosedCases !== null || showClosedCases !== 'undefined' || showClosedCases !== undefined) {
             if (showClosedCases === true) {
                 helper.findAllCases(component, event);
             } else if (showClosedCases === false) {

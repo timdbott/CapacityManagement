@@ -7,12 +7,12 @@
     <aura:attribute name="daysToDisplay" type="Integer"/>
     <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
     
-    <div class="slds-m-top--small slds-m-bottom--small">
+    <div class="slds-m-top_small slds-m-bottom_small">
         <c:MyScheduleAdminHeader header="Administrative" startDate="{!v.startDate}" daysToDisplay="{!v.daysToDisplay}"/>
     </div>
-    <div class="slds-m-top--small slds-m-bottom--small slds-border--bottom">
+    <div class="slds-m-top_small slds-m-bottom_small slds-border_bottom">
         <aura:iteration var="s" items="{!v.adminCases}">
-            <div class="slds-m-top--small slds-m-bottom--small">
+            <div class="slds-m-top_small slds-m-bottom_small">
                 <c:MyScheduleAdminForaCase caseId="{!s.Id}" 
                                        startDate="{!v.startDate}"
                                        caseRqstdSvc="{!s.Requested_Service__c}"/>

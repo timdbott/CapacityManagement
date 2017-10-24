@@ -8,7 +8,7 @@
     <aura:attribute name="hasSchedule" type="Boolean"/>
     <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
     
-    <div class="slds-m-top--small slds-m-bottom--small">
+    <div class="slds-m-top_small slds-m-bottom_small">
         <c:MyScheduleHeader header="Unowned Cases" 
                             startDate="{!v.startDate}" 
                             daysToDisplay="{!v.daysToDisplay}" 
@@ -18,9 +18,9 @@
     <!-- show schedule results if there are any -->
     <aura:if isTrue="{!v.hasSchedule}">
         
-        <div class="slds-m-top--small slds-m-bottom--small">
+        <div class="slds-m-top_small slds-m-bottom_small">
             <aura:iteration var="s" items="{!v.unownedCases}">
-                <div class="slds-m-top--small slds-m-bottom--small">
+                <div class="slds-m-top_small slds-m-bottom_small">
                     <c:MyScheduleForaCase caseId="{!s.Case__c}" 
                                            startDate="{!v.startDate}" 
                                            daysToDisplay="{!v.daysToDisplay}"
@@ -40,9 +40,9 @@
         <aura:set attribute="else">
 
             <!-- message -->
-            <div class="slds-m-left--large slds-p-bottom--small">
-                <div class="slds-m-horizontal--xx-small slds-size--1-of-1 slds-medium-size--6-of-6 slds-large-size--12-of-12 slds-m-top--small">
-                    <div class="slds-notify slds-notify--alert slds-theme--alert-texture" role="alert">
+            <div class="slds-m-left_large slds-p-bottom_small">
+                <div class="slds-m-horizontal_xx-small slds-size_1-of-1 slds-medium-size_6-of-6 slds-large-size_12-of-12 slds-m-top_small">
+                    <div class="slds-notify slds-notify_alert slds-theme_alert-texture" role="alert">
                         <span class="slds-assistive-text">Info</span>
                         <h2>No Unowned Cases</h2>
                     </div>

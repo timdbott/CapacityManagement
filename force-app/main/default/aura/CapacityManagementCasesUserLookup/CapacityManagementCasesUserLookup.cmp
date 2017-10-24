@@ -12,12 +12,12 @@
 		name="search" 
 		onchange="{!c.searchUsers}" />
 
-	<div class="slds-m-top--xx-small slds-hide" aura:id="searchResults">
+	<div class="slds-m-top_xx-small slds-hide" aura:id="searchResults">
 
-		<div class="slds-box slds-theme--default">
+		<div class="slds-box slds-theme_default">
 
 			<!-- close search results -->
-			<div class="slds-grid slds-grid--align-end">
+			<div class="slds-grid slds-grid_align-end">
 				<lightning:buttonIcon iconName="utility:clear" 
 					variant="bare" 
 					alternativeText="close search results"
@@ -38,7 +38,7 @@
 		</div>
 	</div>
 
-	<div class="slds-m-top--xx-small">
+	<div class="slds-m-top_xx-small">
 		<lightning:button variant="neutral" label="Assign" onclick="{! c.assignCase }" />
 	</div>
 

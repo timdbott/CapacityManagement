@@ -22,7 +22,7 @@
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
     <aura:handler name="change" action="{!c.doInit}" value="{!v.startDate}"/>
     
-    <div class="slds-m-top--small slds-m-bottom--small">
+    <div class="slds-m-top_small slds-m-bottom_small">
         <c:CaseScheduleTotalsHeader header="My Hours" 
           startDate="{!v.startDate}" 
           daysToDisplay="{!v.daysToDisplay}"

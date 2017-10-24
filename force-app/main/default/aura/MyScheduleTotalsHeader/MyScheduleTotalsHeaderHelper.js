@@ -15,7 +15,7 @@
         day = d.getDay();
         
         // find day # of month
-        diff = d.getDate() - day + (day == 0 ? -7 : 0); // adjust when day is sunday
+        diff = d.getDate() - day + (day === 0 ? -7 : 0); // adjust when day is sunday
         
             	// find sunday
             	//sunday = new Date(d.setDate(diff)),

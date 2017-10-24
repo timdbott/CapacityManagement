@@ -18,13 +18,13 @@
     
     
     <!-- this component returns a row of schedule__c data for the provided case -->
-    <div class="slds-grid slds-grid--vertical-align-center">
-    	<div style="max-width:40.0rem;min-width:40.0rem" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--3-of-6 slds-large-size--6-of-12">
-            <div class="slds-text-align--right slds-truncate">{!v.caseRqstdSvc}</div>
+    <div class="slds-grid slds-grid_vertical-align-center">
+    	<div style="max-width:40.0rem;min-width:40.0rem" class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_3-of-6 slds-large-size_6-of-12">
+            <div class="slds-text-align_right slds-truncate">{!v.caseRqstdSvc}</div>
         </div>
         <aura:iteration var="s" items="{!v.scheduleRcds}">
-            <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-6 slds-large-size--1-of-12">
-                <div class="slds-text-align--center slds-truncate slds-align--absolute-center">
+            <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-6 slds-large-size_1-of-12">
+                <div class="slds-text-align_center slds-truncate slds-align_absolute-center">
                 	<c:MyScheduleForaCaseHours recordId="{!s.Id}" 
                         caseId="{!v.caseId}" 
                         loadedHours="{!s.Hours__c}" 
