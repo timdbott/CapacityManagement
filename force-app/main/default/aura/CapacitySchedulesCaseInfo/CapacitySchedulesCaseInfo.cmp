@@ -16,46 +16,88 @@
     <!--  EVENTS -->
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
 
-    
-    <lightning:tile label="{!'Account Name: ' + v.actName}">
-        
+    <div class="slds-page-header">
+        <lightning:icon iconName="standard:case" size="large" alternativeText="case header"/>
+        <span class="slds-page-header__title slds-truncate slds-align-middle slds-m-left_large">{!v.caseType}</span>
+
+    </div>
+    <div class="slds-box">
         <dl class="slds-dl_horizontal">
             <dt class="slds-dl_horizontal__label">
-                <p class="slds-truncate" title="Account">
-                    <lightning:icon iconName="standard:account" size="small"/>
-                    Account Name:
-                </p>
+                <p class="slds-truncate slds-text-title" title="Type">Type:</p>
+            </dt>
+            <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                <p class="slds-truncate" title="{!v.caseType}">{!v.caseType}</p>
+            </dd>
+            <dt class="slds-dl_horizontal__label">
+                <p class="slds-truncate slds-text-title" title="Type">Requested By:</p>
+            </dt>
+            <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                <p class="slds-truncate" title="{!v.rqstBy}">{!v.rqstBy}</p>
+            </dd>
+            <dt class="slds-dl_horizontal__label">
+                <p class="slds-truncate slds-text-title" title="Type">Requested Due Date:</p>
+            </dt>
+            <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                <p class="slds-truncate" title="{!v.dueDate}">{!v.dueDate}</p>
+            </dd>
+
+
+            <dt class="slds-dl_horizontal__label">
+                <p class="slds-truncate slds-text-title" title="Account">Account Name:</p>
             </dt>
             <dd class="slds-dl_horizontal__detail slds-tile__meta">
                 <p class="slds-truncate" title="{!v.actName}">{!v.actName}</p>
             </dd>
 
             <dt class="slds-dl_horizontal__label">
-                <p class="slds-truncate" title="Classification">Account Classification:</p>
+                <p class="slds-truncate slds-text-title" title="Classification">Account Classification:</p>
             </dt>
             <dd class="slds-dl_horizontal__detail slds-tile__meta">
                 <p class="slds-truncate" title="{!v.actClass}">{!v.actClass}</p>
             </dd>
 
             <dt class="slds-dl_horizontal__label">
-                <p class="slds-truncate" title="Opportunity">Opportunity:</p>
+                <p class="slds-truncate slds-text-title" title="Opportunity">Opportunity:</p>
             </dt>
             <dd class="slds-dl_horizontal__detail slds-tile__meta">
                 <p class="slds-truncate" title="{!v.optyName}">{!v.optyName}</p>
             </dd>
-        </dl>
-    </lightning:tile>
 
+            <dt class="slds-dl_horizontal__label">
+                    <p class="slds-truncate slds-text-title" title="Opportunity">Est Disc Sales:</p>
+                </dt>
+                <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                    <p class="slds-truncate" title="{!v.optyAmnt}">{!v.optyAmnt}</p>
+                </dd>
+        </dl>
+    </div>
+<!--
     <lightning:recordViewForm recordId="{!v.caseId}" objectApiName="Case">
-            <div class="slds-box slds-theme_default">
-                <lightning:outputField fieldName="Type" />
-                <lightning:outputField fieldName="Requested_Completion_Date__c" />
-                <lightning:outputField fieldName="Service_Requested_By_Name__c" />
-                <lightning:outputField fieldName="Account_Name_Text__c" />
-                <lightning:outputField fieldName="Account_Classification__c"/>
-                <lightning:outputField fieldName="Opportunity_Name__c" />
-                <lightning:outputField fieldName="Opportunity_Est_Disc_Sales__c" />
+            <div class="slds-grid">
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning:outputField fieldName="Type" />
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning:outputField fieldName="Requested_Completion_Date__c" />
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning:outputField fieldName="Service_Requested_By_Name__c" />
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning:outputField fieldName="Account_Name_Text__c" />
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning:outputField fieldName="Account_Classification__c"/>
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning:outputField fieldName="Opportunity_Name__c" />
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning:outputField fieldName="Opportunity_Est_Disc_Sales__c" />
+                </div>
             </div>
         </lightning:recordViewForm>
+    -->
 
 </aura:component>	

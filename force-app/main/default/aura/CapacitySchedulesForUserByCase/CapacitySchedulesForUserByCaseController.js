@@ -57,6 +57,10 @@
         }
         component.set("v.optyAmnt", optyAmnt);
 
-        helper.handleShowModal(component, event);
+        // show details in a modal
+        //helper.handleShowModal(component, event);
+
+        // show details in a popover
+        helper.handleShowPopover(component, event);
     }
 })

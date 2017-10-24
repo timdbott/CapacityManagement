@@ -1,2 +1,4 @@
-.THIS {
+.THIS .show-pointer {
+    cursor: pointer;
+    visibility: visible;
 }

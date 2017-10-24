@@ -587,10 +587,10 @@
         {
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUser.cmp",
             "isDirectory": false,
-            "size": 1555,
-            "modifiedTime": 1508719310000,
-            "changeTime": 1508719310000,
-            "contentHash": "3588d8436518fcee1716cace20009dbaaade202f",
+            "size": 1568,
+            "modifiedTime": 1508853646000,
+            "changeTime": 1508853646000,
+            "contentHash": "edd764b609d77df70275a686972d3eaaa6cd9759",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -614,16 +614,15 @@
     [
         "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUser.css",
         {
+            "state": "u",
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUser/CapacitySchedulesForUser.css",
             "isDirectory": false,
-            "size": 10,
-            "modifiedTime": 1507830493000,
-            "changeTime": 1507830493000,
-            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 69,
+            "modifiedTime": 1508853865000,
+            "changeTime": 1508853865000,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "4c518d0567caa0a8dc2fb068e2ecf1007bc1038b"
         }
     ],
     [
@@ -3273,10 +3272,10 @@
         {
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUserByCase/CapacitySchedulesForUserByCase.cmp",
             "isDirectory": false,
-            "size": 1746,
-            "modifiedTime": 1508786811000,
-            "changeTime": 1508786811000,
-            "contentHash": "6bd032479f645231b16484d892c72da5bfbb851b",
+            "size": 1772,
+            "modifiedTime": 1508853060000,
+            "changeTime": 1508853060000,
+            "contentHash": "f830e8ff52077078182f47435ec2de59802aebf8",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -3299,10 +3298,10 @@
         {
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUserByCase/CapacitySchedulesForUserByCase.css",
             "isDirectory": false,
-            "size": 10,
-            "modifiedTime": 1508441431000,
-            "changeTime": 1508441431000,
-            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "size": 167,
+            "modifiedTime": 1508853594000,
+            "changeTime": 1508853594000,
+            "contentHash": "97a224d1af5d80be5a9945c4d91ae1a662a63b38",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -3312,10 +3311,10 @@
         {
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUserByCase/CapacitySchedulesForUserByCaseController.js",
             "isDirectory": false,
-            "size": 2904,
-            "modifiedTime": 1508785766000,
-            "changeTime": 1508785766000,
-            "contentHash": "bc24629c649d365dbee10013802737fe6a11cf6a",
+            "size": 3031,
+            "modifiedTime": 1508851914000,
+            "changeTime": 1508851914000,
+            "contentHash": "eb2b360ba0d579fa05f56a725b56fce12ff6afd8",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -3325,10 +3324,10 @@
         {
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesForUserByCase/CapacitySchedulesForUserByCaseHelper.js",
             "isDirectory": false,
-            "size": 1605,
-            "modifiedTime": 1508786042000,
-            "changeTime": 1508786042000,
-            "contentHash": "0187ef32e9032af38aa158b8fbd90ba0b5e20f6d",
+            "size": 4617,
+            "modifiedTime": 1508850583000,
+            "changeTime": 1508850583000,
+            "contentHash": "88c2905d10add73bbfaf6abf80ab928d984c2b88",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -3362,14 +3361,14 @@
     [
         "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesCaseInfo/CapacitySchedulesCaseInfo.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/timbott/Documents/VisualStudioCode/CapacityManagement/force-app/main/default/aura/CapacitySchedulesCaseInfo/CapacitySchedulesCaseInfo.cmp",
             "isDirectory": false,
+            "size": 4660,
+            "modifiedTime": 1508851007000,
+            "changeTime": 1508851007000,
+            "contentHash": "fa09e1d09535e669faf8f1a3aedbf026ee367c05",
             "isMetadataFile": false,
-            "size": 2635,
-            "modifiedTime": 1508787524000,
-            "changeTime": 1508787524000,
-            "contentHash": "529428c6ec9183a4450ba772827321bd79ccd6c9"
+            "state": "u"
         }
     ],
     [

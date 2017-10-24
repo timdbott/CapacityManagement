@@ -17,7 +17,7 @@
                 
             <!--  this is where the user's name needs to open the user's schedule....someplace on the screen  -->
 
-            <div class="slds-truncate slds-text-align_right">
+            <div class="slds-truncate slds-text-align_right show-pointer">
                 <span onclick="{!c.toggleUserSchedules}">{!v.user.Name}</span>
             </div>
 
